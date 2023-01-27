@@ -1,0 +1,8 @@
+scikit-learn
+matplotlib
+pandas
+numpy
+requests
+bs4
+selenium
+jinja2
