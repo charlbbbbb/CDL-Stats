@@ -2,16 +2,16 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import pandas as pd
-import numpy as np
 
-from tools import remove_empty_strings, add_teams_to_frame
-
+from tools import remove_empty_strings, add_teams_to_frame, check_event_exists
+from fandom_errors import MajorNotPlayedError
 
 class CodFandomPage:
     """
     The CodFandomPage Class allows for pages to be parsed and analysed
     """
     def __init__(self, major: int = 1, week: int = 1) -> None:
+        check_event_exists(major=major, week=week)
         """
         Params:
             major (int): The major number
@@ -63,9 +63,14 @@ class CodFandomPage:
         """
         self.fetch_data()
         self.matches = [Match(match) for match in self.clean_data()]
+        if self.matches == []:
+            raise MajorNotPlayedError
     
     
 class Match:
+    """
+    The Match object contains data regarding a CDL map (also known as a series)
+    """
     def __init__(self, raw_map_data):
         self.map1 = Map(raw_map_data[0])
         self.map2 = Map(raw_map_data[1])
@@ -76,6 +81,9 @@ class Match:
         self.winner = self.count_maps([cur_map.winner for cur_map in self.all_maps if cur_map is not None])
     
     def count_maps(self, arr):
+        """
+        Count the number of maps won in a series/match to determine the overall winner
+        """
         counts = {}
         for value in arr:
             if value:
@@ -89,6 +97,9 @@ class Match:
 
 
 class Map:
+    """
+    The Map object contains information for individual maps within a series
+    """
     def __init__(self, map_data: list) -> None:
         self.gamemode = None
         self.winner = None
@@ -111,6 +122,12 @@ class Map:
                 self.parse_control()
         
     def parse_map_info(self):
+        """
+        Desc: Parse the map info
+        Params: None
+        Return: None
+        Impact: Adds data to the objects map_info attribute
+        """
         frame = {'team1':[self.map_information[0]],
                 'team2':[self.map_information[3]],
                 'team1_score':[self.map_information[1]],
@@ -129,6 +146,12 @@ class Map:
         self.map_info = pd.DataFrame(frame)
         
     def parse_hardpoint(self):
+        """
+        Desc: Parse the data for a hardpoint map
+        Params: None
+        Returns: None
+        Impact: Adds data to self.stats
+        """
         self.team2_stats = self.team2_stats[:20]
         frame = {'player':[],
                 'kills': [],
@@ -151,6 +174,12 @@ class Map:
         self.stats = pd.DataFrame(frame)
     
     def parse_snd(self):
+        """
+        Desc: Parse the data for an SnD map
+        Params: None
+        Returns: None
+        Impact: Adds data to self.stats
+        """
         self.team2_stats = self.team2_stats[:32]
         self.team1_stats = self.team1_stats
         frame = {'player':[],
@@ -180,6 +209,12 @@ class Map:
         self.stats = pd.DataFrame(frame)
     
     def parse_control(self):
+        """
+        Desc: Parse the data for a control map
+        Params: None
+        Returns: None
+        Impact: Adds data to self.stats
+        """
         self.team2_stats = self.team2_stats[:20]
         frame = {'player':[],
                 'kills': [],
