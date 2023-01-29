@@ -14,7 +14,7 @@ To do this, you must:
 - Import the following function
   > from cod_fandom_formatter import major_csv
 - Next, call the function with the parameters:
-  > major_csv(major={major of your choice}, week={week of your choice})
+  > major_csv(major={major of your choice}, week={week of your choice}, format={'short' or 'long'})
 
 ## Initial Analysis of Some Imported Data
 Some intial analysis of player data covering the entire year can be seen in the analysis folder. This contains breakdowns for different gamemodes and some other research into the data.
