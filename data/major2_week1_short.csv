@@ -1,329 +1,329 @@
-index,player,kills,deaths,kd,hill_time,team_name,team_score,map_outcome,matchID,map_winner,mode,gametime,match_winner,first_kill,first_death,plant,defuse,captures,outcome
-0,Scrappy,28,24,1.17,64,Toronto Ultra,250,winner,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,,
-1,Insight,28,20,1.40,45,Toronto Ultra,250,winner,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,,
-2,CleanX,22,29,0.76,67,Toronto Ultra,250,winner,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,,
-3,Standy,25,18,1.39,111,Toronto Ultra,250,winner,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,,
-4,Zer0,22,24,0.92,47,London Royal Ravens,166,loser,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,,
-5,Nastie,20,26,0.77,19,London Royal Ravens,166,loser,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,,
-6,Asim,30,29,1.03,1,London Royal Ravens,166,loser,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,,
-7,Skrapz,19,24,0.79,104,London Royal Ravens,166,loser,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,,
-0,Scrappy,10,7,1.43,,Toronto Ultra,6,winner,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,0,0,0,1,,
-1,Insight,6,8,0.75,,Toronto Ultra,6,winner,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,1,0,1,0,,
-2,CleanX,3,8,0.38,,Toronto Ultra,6,winner,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,1,3,4,0,,
-3,Standy,7,7,1.00,,Toronto Ultra,6,winner,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,2,3,0,0,,
-4,Zer0,6,7,0.86,,London Royal Ravens,4,loser,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,2,1,2,0,,
-5,Nastie,4,6,0.67,,London Royal Ravens,4,loser,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,1,0,0,0,,
-6,Asim,17,6,2.83,,London Royal Ravens,4,loser,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,2,2,1,1,,
-7,Skrapz,3,7,0.43,,London Royal Ravens,4,loser,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,1,1,1,0,,
-0,Scrappy,34,21,1.62,,Toronto Ultra,3,winner,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,3,
-1,Insight,22,24,0.92,,Toronto Ultra,3,winner,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,8,
-2,CleanX,26,26,1.00,,Toronto Ultra,3,winner,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,2,
-3,Standy,35,24,1.46,,Toronto Ultra,3,winner,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,2,
-4,Zer0,20,29,0.69,,London Royal Ravens,2,loser,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,2,
-5,Nastie,29,37,0.78,,London Royal Ravens,2,loser,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,6,
-6,Asim,22,32,0.69,,London Royal Ravens,2,loser,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,6,
-7,Skrapz,24,19,1.26,,London Royal Ravens,2,loser,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,6,
-0,Vivid,26,20,1.30,99,Boston Breach,250,winner,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,,
-1,Methodz,21,18,1.17,93,Boston Breach,250,winner,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,,
-2,Owakening,29,17,1.71,32,Boston Breach,250,winner,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,,
-3,Nero,21,24,0.88,36,Boston Breach,250,winner,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,,
-4,Attach,20,21,0.95,52,Minnesota RØKKR,144,loser,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,,
-5,Afro,13,25,0.52,78,Minnesota RØKKR,144,loser,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,,
-6,Bance,26,21,1.24,23,Minnesota RØKKR,144,loser,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,,
-7,Cammy,20,30,0.67,10,Minnesota RØKKR,144,loser,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,,
-0,Vivid,9,5,1.80,,Boston Breach,6,winner,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,3,2,0,0,,
-1,Methodz,7,7,1.00,,Boston Breach,6,winner,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,1,1,0,0,,
-2,Owakening,8,4,2.00,,Boston Breach,6,winner,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,0,1,0,1,,
-3,Nero,3,6,0.50,,Boston Breach,6,winner,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,0,1,3,0,,
-4,Attach,9,6,1.50,,Minnesota RØKKR,3,loser,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,1,1,0,0,,
-5,Afro,5,4,1.25,,Minnesota RØKKR,3,loser,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,1,0,2,0,,
-6,Bance,3,7,0.43,,Minnesota RØKKR,3,loser,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,2,1,0,2,,
-7,Cammy,5,8,0.63,,Minnesota RØKKR,3,loser,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,1,2,0,0,,
-0,Vivid,21,18,1.17,,Boston Breach,3,winner,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,6,
-1,Methodz,18,12,1.50,,Boston Breach,3,winner,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,4,
-2,Owakening,17,10,1.70,,Boston Breach,3,winner,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,5,
-3,Nero,16,14,1.13,,Boston Breach,3,winner,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,7,
-4,Attach,14,15,0.93,,Minnesota RØKKR,0,loser,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,1,
-5,Afro,18,18,1.00,,Minnesota RØKKR,0,loser,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,2,
-6,Bance,13,19,0.68,,Minnesota RØKKR,0,loser,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,0,
-7,Cammy,9,20,0.45,,Minnesota RØKKR,0,loser,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,2,
-0,Clayster,25,24,1.04,89,Las Vegas Legion,241,,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,,loser
-1,TJHaly,15,29,0.52,50,Las Vegas Legion,241,,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,,loser
-2,Prolute,23,21,1.10,75,Las Vegas Legion,241,,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,,loser
-3,Temp,25,20,1.25,66,Las Vegas Legion,241,,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,,loser
-4,Sib,25,23,1.09,79,Seattle Surge,250,,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,,winner
-5,Accuracy,17,22,0.77,87,Seattle Surge,250,,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,,winner
-6,Mack,21,24,0.88,88,Seattle Surge,250,,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,,winner
-7,Pred,31,19,1.63,41,Seattle Surge,250,,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,,winner
-0,Clayster,7,4,1.75,,Las Vegas Legion,6,winner,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,1,0,0,0,,
-1,TJHaly,6,5,1.20,,Las Vegas Legion,6,winner,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,2,0,0,0,,
-2,Prolute,8,4,2.00,,Las Vegas Legion,6,winner,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,2,1,2,1,,
-3,Temp,8,4,2.00,,Las Vegas Legion,6,winner,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,1,1,2,0,,
-4,Sib,3,8,0.38,,Seattle Surge,2,loser,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,0,0,0,0,,
-5,Accuracy,6,7,0.86,,Seattle Surge,2,loser,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,1,1,0,0,,
-6,Mack,5,7,0.71,,Seattle Surge,2,loser,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,1,2,1,1,,
-7,Pred,3,7,0.43,,Seattle Surge,2,loser,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,0,3,0,1,,
-0,Clayster,21,21,1.00,,Las Vegas Legion,0,,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,0,loser
-1,TJHaly,17,20,0.85,,Las Vegas Legion,0,,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,0,loser
-2,Prolute,14,18,0.78,,Las Vegas Legion,0,,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,0,loser
-3,Temp,14,18,0.78,,Las Vegas Legion,0,,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,0,loser
-4,Sib,16,18,0.89,,Seattle Surge,3,,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,5,winner
-5,Accuracy,22,17,1.29,,Seattle Surge,3,,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,2,winner
-6,Mack,14,18,0.78,,Seattle Surge,3,,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,5,winner
-7,Pred,25,13,1.92,,Seattle Surge,3,,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,3,winner
-0,Clayster,28,22,1.27,69,Las Vegas Legion,250,winner,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,,
-1,TJHaly,19,27,0.70,34,Las Vegas Legion,250,winner,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,,
-2,Prolute,22,20,1.10,115,Las Vegas Legion,250,winner,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,,
-3,Temp,20,20,1.00,74,Las Vegas Legion,250,winner,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,,
-4,Sib,29,22,1.32,46,Seattle Surge,216,loser,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,,
-5,Accuracy,23,19,1.21,75,Seattle Surge,216,loser,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,,
-6,Mack,18,21,0.86,73,Seattle Surge,216,loser,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,,
-7,Pred,19,27,0.70,23,Seattle Surge,216,loser,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,,
-0,Clayster,8,5,1.60,,Las Vegas Legion,6,winner,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,0,1,0,0,,
-1,TJHaly,5,8,0.63,,Las Vegas Legion,6,winner,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,2,4,0,0,,
-2,Prolute,5,4,1.25,,Las Vegas Legion,6,winner,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,0,1,1,0,,
-3,Temp,8,6,1.33,,Las Vegas Legion,6,winner,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,1,0,0,0,,
-4,Sib,4,6,0.67,,Seattle Surge,3,loser,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,1,2,0,0,,
-5,Accuracy,5,7,0.71,,Seattle Surge,3,loser,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,1,0,0,0,,
-6,Mack,4,6,0.67,,Seattle Surge,3,loser,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,0,0,1,0,,
-7,Pred,10,7,1.43,,Seattle Surge,3,loser,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,4,1,0,0,,
-0,Assault,17,17,1.00,77,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,,
-1,Exceed,19,20,0.95,134,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,,
-2,JoeDeceives,26,21,1.24,46,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,,
-3,Arcitys,18,20,0.90,32,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,,
-4,Vikul,22,27,0.81,48,Florida Mutineers,166,loser,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,,
-5,Havok,20,20,1.00,5,Florida Mutineers,166,loser,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,,
-6,MajorManiak,15,17,0.88,49,Florida Mutineers,166,loser,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,,
-7,Brack,21,16,1.31,105,Florida Mutineers,166,loser,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,,
-0,Assault,8,8,1.00,,Los Angeles Guerrillas,5,,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,1,0,0,0,,loser
-1,Exceed,5,8,0.63,,Los Angeles Guerrillas,5,,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,1,3,0,0,,loser
-2,JoeDeceives,11,7,1.57,,Los Angeles Guerrillas,5,,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,3,1,5,0,,loser
-3,Arcitys,4,11,0.36,,Los Angeles Guerrillas,5,,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,0,2,0,0,,loser
-4,Vikul,6,8,0.75,,Florida Mutineers,6,,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,1,3,3,0,,winner
-5,Havok,9,7,1.29,,Florida Mutineers,6,,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,2,1,0,1,,winner
-6,MajorManiak,6,9,0.67,,Florida Mutineers,6,,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,1,1,0,0,,winner
-7,Brack,13,4,3.25,,Florida Mutineers,6,,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,2,0,0,0,,winner
-0,Assault,29,24,1.21,,Los Angeles Guerrillas,2,,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,3,loser
-1,Exceed,21,30,0.70,,Los Angeles Guerrillas,2,,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,7,loser
-2,JoeDeceives,26,33,0.79,,Los Angeles Guerrillas,2,,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,6,loser
-3,Arcitys,22,29,0.76,,Los Angeles Guerrillas,2,,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,1,loser
-4,Vikul,23,26,0.88,,Florida Mutineers,3,,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,7,winner
-5,Havok,40,26,1.54,,Florida Mutineers,3,,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,6,winner
-6,MajorManiak,22,25,0.88,,Florida Mutineers,3,,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,3,winner
-7,Brack,31,21,1.48,,Florida Mutineers,3,,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,5,winner
-0,Assault,17,19,0.89,58,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,,
-1,Exceed,26,24,1.08,34,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,,
-2,JoeDeceives,26,21,1.24,122,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,,
-3,Arcitys,18,18,1.00,73,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,,
-4,Vikul,21,22,0.95,75,Florida Mutineers,240,loser,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,,
-5,Havok,26,21,1.24,83,Florida Mutineers,240,loser,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,,
-6,MajorManiak,14,23,0.61,8,Florida Mutineers,240,loser,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,,
-7,Brack,21,21,1.00,120,Florida Mutineers,240,loser,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,,
-0,Assault,4,6,0.67,,Los Angeles Guerrillas,1,,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,2,1,0,0,,loser
-1,Exceed,3,5,0.60,,Los Angeles Guerrillas,1,,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,1,1,0,0,,loser
-2,JoeDeceives,1,7,0.14,,Los Angeles Guerrillas,1,,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,0,1,1,0,,loser
-3,Arcitys,4,6,0.67,,Los Angeles Guerrillas,1,,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,1,0,0,1,,loser
-4,Vikul,4,4,1.00,,Florida Mutineers,6,,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,1,1,3,0,,winner
-5,Havok,5,2,2.50,,Florida Mutineers,6,,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,1,2,0,0,,winner
-6,MajorManiak,8,5,1.60,,Florida Mutineers,6,,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,1,1,0,0,,winner
-7,Brack,6,1,6.00,,Florida Mutineers,6,,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,0,0,0,1,,winner
-0,Attach,20,21,0.95,82,Minnesota RØKKR,244,,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,,loser
-1,Afro,23,21,1.10,121,Minnesota RØKKR,244,,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,,loser
-2,Bance,23,29,0.79,26,Minnesota RØKKR,244,,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,,loser
-3,Cammy,30,29,1.03,26,Minnesota RØKKR,244,,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,,loser
-4,Zer0,19,23,0.83,77,London Royal Ravens,250,,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,,winner
-5,Nastie,29,26,1.12,116,London Royal Ravens,250,,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,,winner
-6,Asim,36,23,1.57,24,London Royal Ravens,250,,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,,winner
-7,Skrapz,16,24,0.67,64,London Royal Ravens,250,,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,,winner
-0,Attach,9,8,1.12,,Minnesota RØKKR,4,,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,1,0,0,0,,loser
-1,Afro,7,7,1.00,,Minnesota RØKKR,4,,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,2,2,1,0,,loser
-2,Bance,10,5,2.00,,Minnesota RØKKR,4,,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,3,1,2,0,,loser
-3,Cammy,3,8,0.38,,Minnesota RØKKR,4,,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,0,1,0,0,,loser
-4,Zer0,6,6,1.00,,London Royal Ravens,6,,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,1,0,0,0,,winner
-5,Nastie,9,8,1.12,,London Royal Ravens,6,,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,2,2,0,0,,winner
-6,Asim,8,8,1.00,,London Royal Ravens,6,,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,0,2,2,0,,winner
-7,Skrapz,5,7,0.71,,London Royal Ravens,6,,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,1,2,1,0,,winner
-0,Attach,22,17,1.29,,Minnesota RØKKR,3,winner,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,2,
-1,Afro,34,17,2.00,,Minnesota RØKKR,3,winner,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,2,
-2,Bance,21,20,1.05,,Minnesota RØKKR,3,winner,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,3,
-3,Cammy,22,25,0.88,,Minnesota RØKKR,3,winner,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,0,
-4,Zer0,16,22,0.73,,London Royal Ravens,2,loser,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,5,
-5,Nastie,15,28,0.54,,London Royal Ravens,2,loser,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,1,
-6,Asim,26,27,0.96,,London Royal Ravens,2,loser,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,1,
-7,Skrapz,22,22,1.00,,London Royal Ravens,2,loser,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,1,
-0,Attach,18,14,1.29,114,Minnesota RØKKR,250,winner,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,,
-1,Afro,23,14,1.64,45,Minnesota RØKKR,250,winner,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,,
-2,Bance,13,14,0.93,69,Minnesota RØKKR,250,winner,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,,
-3,Cammy,21,13,1.62,90,Minnesota RØKKR,250,winner,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,,
-4,Zer0,18,20,0.90,62,London Royal Ravens,131,loser,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,,
-5,Nastie,15,18,0.83,34,London Royal Ravens,131,loser,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,,
-6,Asim,14,20,0.70,29,London Royal Ravens,131,loser,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,,
-7,Skrapz,8,17,0.47,60,London Royal Ravens,131,loser,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,,
-0,Attach,5,6,0.83,,Minnesota RØKKR,6,winner,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,1,1,0,1,,
-1,Afro,12,4,3.00,,Minnesota RØKKR,6,winner,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,1,1,0,1,,
-2,Bance,8,6,1.33,,Minnesota RØKKR,6,winner,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,3,1,1,0,,
-3,Cammy,6,6,1.00,,Minnesota RØKKR,6,winner,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,1,1,1,0,,
-4,Zer0,5,7,0.71,,London Royal Ravens,4,loser,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,0,0,2,0,,
-5,Nastie,8,7,1.13,,London Royal Ravens,4,loser,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,1,1,1,1,,
-6,Asim,4,8,0.50,,London Royal Ravens,4,loser,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,3,4,0,0,,
-7,Skrapz,5,9,0.56,,London Royal Ravens,4,loser,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,0,1,0,0,,
-0,Cellium,19,19,1.00,52,Atlanta FaZe,250,winner,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,,
-1,Simp,22,24,0.92,74,Atlanta FaZe,250,winner,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,,
-2,aBeZy,23,16,1.44,84,Atlanta FaZe,250,winner,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,,
-3,SlasheR,19,14,1.36,84,Atlanta FaZe,250,winner,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,,
-4,Sib,18,19,0.95,104,Seattle Surge,187,loser,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,,
-5,Accuracy,12,23,0.52,48,Seattle Surge,187,loser,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,,
-6,Mack,21,23,0.91,37,Seattle Surge,187,loser,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,,
-7,Pred,22,18,1.22,27,Seattle Surge,187,loser,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,,
-0,Cellium,4,2,2.00,,Atlanta FaZe,6,winner,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,0,0,0,0,,
-1,Simp,7,4,1.75,,Atlanta FaZe,6,winner,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,2,0,1,0,,
-2,aBeZy,11,4,2.75,,Atlanta FaZe,6,winner,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,3,2,0,0,,
-3,SlasheR,7,3,2.33,,Atlanta FaZe,6,winner,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,1,0,1,0,,
-4,Sib,3,6,0.50,,Seattle Surge,2,loser,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,0,1,0,0,,
-5,Accuracy,3,8,0.38,,Seattle Surge,2,loser,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,0,1,0,0,,
-6,Mack,4,7,0.56,,Seattle Surge,2,loser,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,2,4,0,0,,
-7,Pred,3,8,0.38,,Seattle Surge,2,loser,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,0,0,0,0,,
-0,Cellium,9,12,0.75,,Atlanta FaZe,3,winner,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,5,
-1,Simp,30,14,2.14,,Atlanta FaZe,3,winner,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,6,
-2,aBeZy,19,15,1.27,,Atlanta FaZe,3,winner,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,5,
-3,SlasheR,16,11,1.45,,Atlanta FaZe,3,winner,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,9,
-4,Sib,14,19,0.74,,Seattle Surge,0,loser,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,2,
-5,Accuracy,11,15,0.73,,Seattle Surge,0,loser,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,2,
-6,Mack,12,21,0.56,,Seattle Surge,0,loser,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,3,
-7,Pred,15,19,0.79,,Seattle Surge,0,loser,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,2,
-0,KiSMET,19,24,0.79,32,New York Subliners,184,,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,,loser
-1,Priestahh,23,21,1.10,47,New York Subliners,184,,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,,loser
-2,Skyz,10,19,0.53,108,New York Subliners,184,,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,,loser
-3,HyDra,25,23,1.09,16,New York Subliners,184,,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,,loser
-4,Octane,19,17,1.12,94,Los Angeles Thieves,250,,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,,winner
-5,Drazah,25,21,1.19,61,Los Angeles Thieves,250,,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,,winner
-6,Kenny,33,16,2.06,34,Los Angeles Thieves,250,,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,,winner
-7,Envoy,10,23,0.43,96,Los Angeles Thieves,250,,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,,winner
-0,KiSMET,6,8,0.75,,New York Subliners,6,winner,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,1,4,1,0,,
-1,Priestahh,9,8,1.12,,New York Subliners,6,winner,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,2,1,0,0,,
-2,Skyz,1,10,0.10,,New York Subliners,6,winner,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,0,3,1,0,,
-3,HyDra,9,8,1.12,,New York Subliners,6,winner,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,0,0,1,1,,
-4,Octane,6,6,1.00,,Los Angeles Thieves,5,loser,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,2,0,0,1,,
-5,Drazah,9,6,1.50,,Los Angeles Thieves,5,loser,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,1,3,0,0,,
-6,Kenny,12,6,2.00,,Los Angeles Thieves,5,loser,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,3,0,3,0,,
-7,Envoy,7,7,1.00,,Los Angeles Thieves,5,loser,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,2,0,0,0,,
-0,KiSMET,33,23,1.43,,New York Subliners,3,winner,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,4,
-1,Priestahh,21,24,0.88,,New York Subliners,3,winner,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,3,
-2,Skyz,20,28,0.71,,New York Subliners,3,winner,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,0,
-3,HyDra,25,25,1.00,,New York Subliners,3,winner,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,3,
-4,Octane,24,24,1.00,,Los Angeles Thieves,2,loser,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,6,
-5,Drazah,17,24,0.71,,Los Angeles Thieves,2,loser,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,4,
-6,Kenny,26,26,1.00,,Los Angeles Thieves,2,loser,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,4,
-7,Envoy,33,25,1.32,,Los Angeles Thieves,2,loser,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,2,
-0,KiSMET,26,25,1.04,102,New York Subliners,250,winner,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,,
-1,Priestahh,20,20,1.00,71,New York Subliners,250,winner,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,,
-2,Skyz,30,22,1.36,71,New York Subliners,250,winner,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,,
-3,HyDra,33,24,1.38,26,New York Subliners,250,winner,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,,
-4,Octane,21,25,0.84,63,Los Angeles Thieves,219,loser,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,,
-5,Drazah,27,26,1.04,91,Los Angeles Thieves,219,loser,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,,
-6,Kenny,19,29,0.66,51,Los Angeles Thieves,219,loser,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,,
-7,Envoy,24,29,0.83,49,Los Angeles Thieves,219,loser,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,,
-0,Scrappy,21,11,1.91,143,Toronto Ultra,250,winner,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,,
-1,Insight,20,13,1.54,73,Toronto Ultra,250,winner,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,,
-2,CleanX,17,23,0.74,4,Toronto Ultra,250,winner,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,,
-3,Standy,20,16,1.25,101,Toronto Ultra,250,winner,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,,
-4,Vikul,18,20,0.90,58,Florida Mutineers,165,loser,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,,
-5,Havok,16,22,0.73,6,Florida Mutineers,165,loser,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,,
-6,MajorManiak,10,18,0.56,3,Florida Mutineers,165,loser,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,,
-7,Brack,19,18,1.06,110,Florida Mutineers,165,loser,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,,
-0,Scrappy,5,7,0.71,,Toronto Ultra,1,,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,3,0,0,0,,loser
-1,Insight,2,6,0.33,,Toronto Ultra,1,,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,0,2,0,0,,loser
-2,CleanX,1,6,0.17,,Toronto Ultra,1,,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,0,2,0,0,,loser
-3,Standy,3,6,0.50,,Toronto Ultra,1,,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,0,0,1,0,,loser
-4,Vikul,4,4,1.00,,Florida Mutineers,6,,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,0,2,3,0,,winner
-5,Havok,8,3,2.67,,Florida Mutineers,6,,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,1,1,0,0,,winner
-6,MajorManiak,8,3,2.67,,Florida Mutineers,6,,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,2,0,0,0,,winner
-7,Brack,5,1,5.00,,Florida Mutineers,6,,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,1,0,0,0,,winner
-0,Scrappy,15,8,1.88,,Toronto Ultra,3,winner,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,3,
-1,Insight,13,11,1.18,,Toronto Ultra,3,winner,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,1,
-2,CleanX,15,14,1.07,,Toronto Ultra,3,winner,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,3,
-3,Standy,21,10,2.10,,Toronto Ultra,3,winner,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,0,
-4,Vikul,7,20,0.35,,Florida Mutineers,0,loser,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,0,
-5,Havok,9,17,0.53,,Florida Mutineers,0,loser,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,0,
-6,MajorManiak,15,14,1.07,,Florida Mutineers,0,loser,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,0,
-7,Brack,12,13,0.92,,Florida Mutineers,0,loser,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,0,
-0,Scrappy,26,16,1.63,64,Toronto Ultra,250,winner,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,,
-1,Insight,24,17,1.41,116,Toronto Ultra,250,winner,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,,
-2,CleanX,17,19,0.89,73,Toronto Ultra,250,winner,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,,
-3,Standy,18,21,0.86,85,Toronto Ultra,250,winner,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,,
-4,Vikul,16,28,0.56,42,Florida Mutineers,191,loser,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,,
-5,Havok,23,20,1.14,48,Florida Mutineers,191,loser,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,,
-6,MajorManiak,21,15,1.40,88,Florida Mutineers,191,loser,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,,
-7,Brack,13,22,0.59,66,Florida Mutineers,191,loser,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,,
-0,Vivid,18,28,0.64,35,Boston Breach,180,,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,,loser
-1,Methodz,17,25,0.68,72,Boston Breach,180,,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,,loser
-2,Owakening,21,18,1.17,57,Boston Breach,180,,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,,loser
-3,Nero,16,27,0.59,41,Boston Breach,180,,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,,loser
-4,Shotzzy,26,23,1.12,69,OpTic Texas,250,,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,,winner
-5,Scump,23,19,1.21,71,OpTic Texas,250,,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,,winner
-6,Huke,26,20,1.30,91,OpTic Texas,250,,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,,winner
-7,iLLeY,23,11,2.09,78,OpTic Texas,250,,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,,winner
-0,Vivid,7,7,1.00,,Boston Breach,6,winner,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,3,2,0,0,,
-1,Methodz,3,5,0.60,,Boston Breach,6,winner,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,0,0,0,0,,
-2,Owakening,5,4,1.25,,Boston Breach,6,winner,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,0,1,0,0,,
-3,Nero,11,4,2.75,,Boston Breach,6,winner,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,2,0,3,1,,
-4,Shotzzy,5,5,1.00,,OpTic Texas,2,loser,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,0,0,2,0,,
-5,Scump,2,7,0.28,,OpTic Texas,2,loser,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,0,3,0,0,,
-6,Huke,3,7,0.43,,OpTic Texas,2,loser,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,2,2,0,0,,
-7,iLLeY,10,7,1.43,,OpTic Texas,2,loser,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,1,0,0,0,,
-0,Vivid,30,28,1.07,,Boston Breach,1,,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,Methodz,loser
-1,27,21,1.29,Owakening,,Boston Breach,1,,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,16,loser
-2,25,0.64,Nero,22,,Boston Breach,1,,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,34,loser
-3,0.65,25,25,1.00,,Boston Breach,1,,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,Scump,loser
-4,Shotzzy,14,2.21,Huke,,OpTic Texas,3,,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,20,winner
-5,31,1.00,iLLeY,19,,OpTic Texas,3,,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,23,winner
-6,20,Game 4 ,0,0,,OpTic Texas,3,,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,0,winner
-7,0.83,0,0,0,,OpTic Texas,3,,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,0,winner
-0,Vivid,25,34,0.74,51,Boston Breach,250,winner,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,,
-1,Methodz,25,24,1.04,107,Boston Breach,250,winner,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,,
-2,Owakening,25,21,1.19,76,Boston Breach,250,winner,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,,
-3,Nero,36,29,1.24,61,Boston Breach,250,winner,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,,
-4,Shotzzy,21,28,0.75,73,OpTic Texas,244,loser,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,,
-5,Scump,31,27,1.14,49,OpTic Texas,244,loser,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,,
-6,Huke,33,29,1.13,105,OpTic Texas,244,loser,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,,
-7,iLLeY,23,27,0.85,34,OpTic Texas,244,loser,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,,
-0,Vivid,13,7,1.86,,Boston Breach,3,,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,5,1,0,0,,loser
-1,Methodz,3,7,0.43,,Boston Breach,3,,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,0,1,0,0,,loser
-2,Owakening,6,6,1.00,,Boston Breach,3,,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,1,0,1,0,,loser
-3,Nero,0,7,0.00,,Boston Breach,3,,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,0,1,1,0,,loser
-4,Shotzzy,5,6,0.83,,OpTic Texas,6,,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,0,1,0,0,,winner
-5,Scump,7,6,1.17,,OpTic Texas,6,,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,0,1,1,0,,winner
-6,Huke,8,6,1.33,,OpTic Texas,6,,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,2,4,0,0,,winner
-7,iLLeY,7,4,1.75,,OpTic Texas,6,,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,1,0,1,1,,winner
-0,Assault,23,16,1.44,75,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,,
-1,Exceed,24,23,1.04,73,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,,
-2,JoeDeceives,28,17,1.65,114,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,,
-3,Arcitys,18,21,0.86,12,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,,
-4,Octane,21,23,0.91,64,Los Angeles Thieves,153,loser,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,,
-5,Drazah,19,21,0.90,38,Los Angeles Thieves,153,loser,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,,
-6,Kenny,18,24,0.75,4,Los Angeles Thieves,153,loser,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,,
-7,Envoy,19,25,0.76,68,Los Angeles Thieves,153,loser,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,,
-0,Assault,7,5,1.40,,Los Angeles Guerrillas,6,winner,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,0,1,0,0,,
-1,Exceed,9,6,1.50,,Los Angeles Guerrillas,6,winner,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,3,2,0,0,,
-2,JoeDeceives,6,5,1.20,,Los Angeles Guerrillas,6,winner,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,1,0,5,0,,
-3,Arcitys,9,7,1.29,,Los Angeles Guerrillas,6,winner,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,1,2,0,1,,
-4,Octane,3,8,0.38,,Los Angeles Thieves,4,loser,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,0,0,0,1,,
-5,Drazah,7,7,1.00,,Los Angeles Thieves,4,loser,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,2,3,0,0,,
-6,Kenny,6,9,0.67,,Los Angeles Thieves,4,loser,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,1,0,2,0,,
-7,Envoy,7,7,1.00,,Los Angeles Thieves,4,loser,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,2,2,2,0,,
-0,Assault,18,24,0.75,,Los Angeles Guerrillas,1,,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,1,loser
-1,Exceed,27,32,0.84,,Los Angeles Guerrillas,1,,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,4,loser
-2,JoeDeceives,20,31,0.65,,Los Angeles Guerrillas,1,,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,2,loser
-3,Arcitys,25,26,0.96,,Los Angeles Guerrillas,1,,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,6,loser
-4,Octane,31,25,1.24,,Los Angeles Thieves,3,,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,2,winner
-5,Drazah,27,19,1.42,,Los Angeles Thieves,3,,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,5,winner
-6,Kenny,28,25,1.12,,Los Angeles Thieves,3,,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,3,winner
-7,Envoy,27,21,1.29,,Los Angeles Thieves,3,,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,5,winner
-0,Assault,22,25,0.88,56,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,,
-1,Exceed,24,29,0.83,63,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,,
-2,JoeDeceives,26,29,0.90,56,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,,
-3,Arcitys,34,17,2.00,85,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,,
-4,Octane,19,24,0.79,35,Los Angeles Thieves,199,loser,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,,
-5,Drazah,17,24,0.71,82,Los Angeles Thieves,199,loser,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,,
-6,Kenny,34,29,1.17,58,Los Angeles Thieves,199,loser,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,,
-7,Envoy,30,29,1.03,66,Los Angeles Thieves,199,loser,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,,
+index,player,kills,deaths,kd,hill_time,team_name,team_score,map_outcome,matchID,map_winner,mode,gametime,match_winner,first_kill,first_death,plant,defuse,captures
+0,Scrappy,28,24,1.17,64,Toronto Ultra,250,winner,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,
+1,Insight,28,20,1.40,45,Toronto Ultra,250,winner,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,
+2,CleanX,22,29,0.76,67,Toronto Ultra,250,winner,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,
+3,Standy,25,18,1.39,111,Toronto Ultra,250,winner,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,
+4,Zer0,22,24,0.92,47,London Royal Ravens,166,loser,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,
+5,Nastie,20,26,0.77,19,London Royal Ravens,166,loser,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,
+6,Asim,30,29,1.03,1,London Royal Ravens,166,loser,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,
+7,Skrapz,19,24,0.79,104,London Royal Ravens,166,loser,TULRRW1M2, Mercado,Hardpoint,10:36,Toronto Ultra,,,,,
+0,Scrappy,10,7,1.43,,Toronto Ultra,6,winner,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,0,0,0,1,
+1,Insight,6,8,0.75,,Toronto Ultra,6,winner,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,1,0,1,0,
+2,CleanX,3,8,0.38,,Toronto Ultra,6,winner,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,1,3,4,0,
+3,Standy,7,7,1.00,,Toronto Ultra,6,winner,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,2,3,0,0,
+4,Zer0,6,7,0.86,,London Royal Ravens,4,loser,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,2,1,2,0,
+5,Nastie,4,6,0.67,,London Royal Ravens,4,loser,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,1,0,0,0,
+6,Asim,17,6,2.83,,London Royal Ravens,4,loser,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,2,2,1,1,
+7,Skrapz,3,7,0.43,,London Royal Ravens,4,loser,TULRRW1M2, Embassy,SearchandDestroy,10:19,Toronto Ultra,1,1,1,0,
+0,Scrappy,34,21,1.62,,Toronto Ultra,3,winner,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,3
+1,Insight,22,24,0.92,,Toronto Ultra,3,winner,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,8
+2,CleanX,26,26,1.00,,Toronto Ultra,3,winner,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,2
+3,Standy,35,24,1.46,,Toronto Ultra,3,winner,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,2
+4,Zer0,20,29,0.69,,London Royal Ravens,2,loser,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,2
+5,Nastie,29,37,0.78,,London Royal Ravens,2,loser,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,6
+6,Asim,22,32,0.69,,London Royal Ravens,2,loser,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,6
+7,Skrapz,24,19,1.26,,London Royal Ravens,2,loser,TULRRW1M2, Hotel,Control,16:02,Toronto Ultra,,,,,6
+0,Vivid,26,20,1.30,99,Boston Breach,250,winner,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,
+1,Methodz,21,18,1.17,93,Boston Breach,250,winner,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,
+2,Owakening,29,17,1.71,32,Boston Breach,250,winner,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,
+3,Nero,21,24,0.88,36,Boston Breach,250,winner,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,
+4,Attach,20,21,0.95,52,Minnesota RØKKR,144,loser,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,
+5,Afro,13,25,0.52,78,Minnesota RØKKR,144,loser,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,
+6,Bance,26,21,1.24,23,Minnesota RØKKR,144,loser,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,
+7,Cammy,20,30,0.67,10,Minnesota RØKKR,144,loser,BBMRW1M2, Fortress,Hardpoint,9:48,Boston Breach,,,,,
+0,Vivid,9,5,1.80,,Boston Breach,6,winner,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,3,2,0,0,
+1,Methodz,7,7,1.00,,Boston Breach,6,winner,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,1,1,0,0,
+2,Owakening,8,4,2.00,,Boston Breach,6,winner,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,0,1,0,1,
+3,Nero,3,6,0.50,,Boston Breach,6,winner,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,0,1,3,0,
+4,Attach,9,6,1.50,,Minnesota RØKKR,3,loser,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,1,1,0,0,
+5,Afro,5,4,1.25,,Minnesota RØKKR,3,loser,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,1,0,2,0,
+6,Bance,3,7,0.43,,Minnesota RØKKR,3,loser,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,2,1,0,2,
+7,Cammy,5,8,0.63,,Minnesota RØKKR,3,loser,BBMRW1M2, El Asilo,SearchandDestroy,10:54,Boston Breach,1,2,0,0,
+0,Vivid,21,18,1.17,,Boston Breach,3,winner,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,6
+1,Methodz,18,12,1.50,,Boston Breach,3,winner,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,4
+2,Owakening,17,10,1.70,,Boston Breach,3,winner,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,5
+3,Nero,16,14,1.13,,Boston Breach,3,winner,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,7
+4,Attach,14,15,0.93,,Minnesota RØKKR,0,loser,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,1
+5,Afro,18,18,1.00,,Minnesota RØKKR,0,loser,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,2
+6,Bance,13,19,0.68,,Minnesota RØKKR,0,loser,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,0
+7,Cammy,9,20,0.45,,Minnesota RØKKR,0,loser,BBMRW1M2, Hotel,Control,8:52,Boston Breach,,,,,2
+0,Clayster,25,24,1.04,89,Las Vegas Legion,241,loser,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,
+1,TJHaly,15,29,0.52,50,Las Vegas Legion,241,loser,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,
+2,Prolute,23,21,1.10,75,Las Vegas Legion,241,loser,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,
+3,Temp,25,20,1.25,66,Las Vegas Legion,241,loser,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,
+4,Sib,25,23,1.09,79,Seattle Surge,250,winner,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,
+5,Accuracy,17,22,0.77,87,Seattle Surge,250,winner,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,
+6,Mack,21,24,0.88,88,Seattle Surge,250,winner,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,
+7,Pred,31,19,1.63,41,Seattle Surge,250,winner,LVLSSW1M2, Embassy,Hardpoint,11:05,Las Vegas Legion,,,,,
+0,Clayster,7,4,1.75,,Las Vegas Legion,6,winner,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,1,0,0,0,
+1,TJHaly,6,5,1.20,,Las Vegas Legion,6,winner,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,2,0,0,0,
+2,Prolute,8,4,2.00,,Las Vegas Legion,6,winner,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,2,1,2,1,
+3,Temp,8,4,2.00,,Las Vegas Legion,6,winner,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,1,1,2,0,
+4,Sib,3,8,0.38,,Seattle Surge,2,loser,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,0,0,0,0,
+5,Accuracy,6,7,0.86,,Seattle Surge,2,loser,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,1,1,0,0,
+6,Mack,5,7,0.71,,Seattle Surge,2,loser,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,1,2,1,1,
+7,Pred,3,7,0.43,,Seattle Surge,2,loser,LVLSSW1M2, El Asilo,SearchandDestroy,8:24,Las Vegas Legion,0,3,0,1,
+0,Clayster,21,21,1.00,,Las Vegas Legion,0,loser,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,0
+1,TJHaly,17,20,0.85,,Las Vegas Legion,0,loser,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,0
+2,Prolute,14,18,0.78,,Las Vegas Legion,0,loser,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,0
+3,Temp,14,18,0.78,,Las Vegas Legion,0,loser,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,0
+4,Sib,16,18,0.89,,Seattle Surge,3,winner,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,5
+5,Accuracy,22,17,1.29,,Seattle Surge,3,winner,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,2
+6,Mack,14,18,0.78,,Seattle Surge,3,winner,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,5
+7,Pred,25,13,1.92,,Seattle Surge,3,winner,LVLSSW1M2, Fortress,Control,7:23,Las Vegas Legion,,,,,3
+0,Clayster,28,22,1.27,69,Las Vegas Legion,250,winner,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,
+1,TJHaly,19,27,0.70,34,Las Vegas Legion,250,winner,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,
+2,Prolute,22,20,1.10,115,Las Vegas Legion,250,winner,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,
+3,Temp,20,20,1.00,74,Las Vegas Legion,250,winner,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,
+4,Sib,29,22,1.32,46,Seattle Surge,216,loser,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,
+5,Accuracy,23,19,1.21,75,Seattle Surge,216,loser,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,
+6,Mack,18,21,0.86,73,Seattle Surge,216,loser,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,
+7,Pred,19,27,0.70,23,Seattle Surge,216,loser,LVLSSW1M2, Mercado,Hardpoint,10:09,Las Vegas Legion,,,,,
+0,Clayster,8,5,1.60,,Las Vegas Legion,6,winner,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,0,1,0,0,
+1,TJHaly,5,8,0.63,,Las Vegas Legion,6,winner,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,2,4,0,0,
+2,Prolute,5,4,1.25,,Las Vegas Legion,6,winner,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,0,1,1,0,
+3,Temp,8,6,1.33,,Las Vegas Legion,6,winner,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,1,0,0,0,
+4,Sib,4,6,0.67,,Seattle Surge,3,loser,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,1,2,0,0,
+5,Accuracy,5,7,0.71,,Seattle Surge,3,loser,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,1,0,0,0,
+6,Mack,4,6,0.67,,Seattle Surge,3,loser,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,0,0,1,0,
+7,Pred,10,7,1.43,,Seattle Surge,3,loser,LVLSSW1M2, Fortress,SearchandDestroy,8:22,Las Vegas Legion,4,1,0,0,
+0,Assault,17,17,1.00,77,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,
+1,Exceed,19,20,0.95,134,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,
+2,JoeDeceives,26,21,1.24,46,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,
+3,Arcitys,18,20,0.90,32,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,
+4,Vikul,22,27,0.81,48,Florida Mutineers,166,loser,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,
+5,Havok,20,20,1.00,5,Florida Mutineers,166,loser,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,
+6,MajorManiak,15,17,0.88,49,Florida Mutineers,166,loser,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,
+7,Brack,21,16,1.31,105,Florida Mutineers,166,loser,LAGFMW1M2, Embassy,Hardpoint,9:44,Los Angeles Guerrillas,,,,,
+0,Assault,8,8,1.00,,Los Angeles Guerrillas,5,loser,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,1,0,0,0,
+1,Exceed,5,8,0.63,,Los Angeles Guerrillas,5,loser,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,1,3,0,0,
+2,JoeDeceives,11,7,1.57,,Los Angeles Guerrillas,5,loser,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,3,1,5,0,
+3,Arcitys,4,11,0.36,,Los Angeles Guerrillas,5,loser,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,0,2,0,0,
+4,Vikul,6,8,0.75,,Florida Mutineers,6,winner,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,1,3,3,0,
+5,Havok,9,7,1.29,,Florida Mutineers,6,winner,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,2,1,0,1,
+6,MajorManiak,6,9,0.67,,Florida Mutineers,6,winner,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,1,1,0,0,
+7,Brack,13,4,3.25,,Florida Mutineers,6,winner,LAGFMW1M2, El Asilo,SearchandDestroy,12:18,Los Angeles Guerrillas,2,0,0,0,
+0,Assault,29,24,1.21,,Los Angeles Guerrillas,2,loser,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,3
+1,Exceed,21,30,0.70,,Los Angeles Guerrillas,2,loser,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,7
+2,JoeDeceives,26,33,0.79,,Los Angeles Guerrillas,2,loser,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,6
+3,Arcitys,22,29,0.76,,Los Angeles Guerrillas,2,loser,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,1
+4,Vikul,23,26,0.88,,Florida Mutineers,3,winner,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,7
+5,Havok,40,26,1.54,,Florida Mutineers,3,winner,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,6
+6,MajorManiak,22,25,0.88,,Florida Mutineers,3,winner,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,3
+7,Brack,31,21,1.48,,Florida Mutineers,3,winner,LAGFMW1M2, El Asilo,Control,15:58,Los Angeles Guerrillas,,,,,5
+0,Assault,17,19,0.89,58,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,
+1,Exceed,26,24,1.08,34,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,
+2,JoeDeceives,26,21,1.24,122,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,
+3,Arcitys,18,18,1.00,73,Los Angeles Guerrillas,250,winner,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,
+4,Vikul,21,22,0.95,75,Florida Mutineers,240,loser,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,
+5,Havok,26,21,1.24,83,Florida Mutineers,240,loser,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,
+6,MajorManiak,14,23,0.61,8,Florida Mutineers,240,loser,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,
+7,Brack,21,21,1.00,120,Florida Mutineers,240,loser,LAGFMW1M2, Mercado,Hardpoint,11:33,Los Angeles Guerrillas,,,,,
+0,Assault,4,6,0.67,,Los Angeles Guerrillas,1,loser,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,2,1,0,0,
+1,Exceed,3,5,0.60,,Los Angeles Guerrillas,1,loser,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,1,1,0,0,
+2,JoeDeceives,1,7,0.14,,Los Angeles Guerrillas,1,loser,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,0,1,1,0,
+3,Arcitys,4,6,0.67,,Los Angeles Guerrillas,1,loser,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,1,0,0,1,
+4,Vikul,4,4,1.00,,Florida Mutineers,6,winner,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,1,1,3,0,
+5,Havok,5,2,2.50,,Florida Mutineers,6,winner,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,1,2,0,0,
+6,MajorManiak,8,5,1.60,,Florida Mutineers,6,winner,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,1,1,0,0,
+7,Brack,6,1,6.00,,Florida Mutineers,6,winner,LAGFMW1M2, Fortress,SearchandDestroy,6:41,Los Angeles Guerrillas,0,0,0,1,
+0,Attach,20,21,0.95,82,Minnesota RØKKR,244,loser,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,
+1,Afro,23,21,1.10,121,Minnesota RØKKR,244,loser,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,
+2,Bance,23,29,0.79,26,Minnesota RØKKR,244,loser,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,
+3,Cammy,30,29,1.03,26,Minnesota RØKKR,244,loser,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,
+4,Zer0,19,23,0.83,77,London Royal Ravens,250,winner,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,
+5,Nastie,29,26,1.12,116,London Royal Ravens,250,winner,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,
+6,Asim,36,23,1.57,24,London Royal Ravens,250,winner,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,
+7,Skrapz,16,24,0.67,64,London Royal Ravens,250,winner,MRLRRW1M2, Fortress,Hardpoint,11:42,Minnesota RØKKR,,,,,
+0,Attach,9,8,1.12,,Minnesota RØKKR,4,loser,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,1,0,0,0,
+1,Afro,7,7,1.00,,Minnesota RØKKR,4,loser,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,2,2,1,0,
+2,Bance,10,5,2.00,,Minnesota RØKKR,4,loser,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,3,1,2,0,
+3,Cammy,3,8,0.38,,Minnesota RØKKR,4,loser,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,0,1,0,0,
+4,Zer0,6,6,1.00,,London Royal Ravens,6,winner,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,1,0,0,0,
+5,Nastie,9,8,1.12,,London Royal Ravens,6,winner,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,2,2,0,0,
+6,Asim,8,8,1.00,,London Royal Ravens,6,winner,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,0,2,2,0,
+7,Skrapz,5,7,0.71,,London Royal Ravens,6,winner,MRLRRW1M2, Mercado,SearchandDestroy,11:22,Minnesota RØKKR,1,2,1,0,
+0,Attach,22,17,1.29,,Minnesota RØKKR,3,winner,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,2
+1,Afro,34,17,2.00,,Minnesota RØKKR,3,winner,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,2
+2,Bance,21,20,1.05,,Minnesota RØKKR,3,winner,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,3
+3,Cammy,22,25,0.88,,Minnesota RØKKR,3,winner,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,0
+4,Zer0,16,22,0.73,,London Royal Ravens,2,loser,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,5
+5,Nastie,15,28,0.54,,London Royal Ravens,2,loser,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,1
+6,Asim,26,27,0.96,,London Royal Ravens,2,loser,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,1
+7,Skrapz,22,22,1.00,,London Royal Ravens,2,loser,MRLRRW1M2, Fortress,Control,12:12,Minnesota RØKKR,,,,,1
+0,Attach,18,14,1.29,114,Minnesota RØKKR,250,winner,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,
+1,Afro,23,14,1.64,45,Minnesota RØKKR,250,winner,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,
+2,Bance,13,14,0.93,69,Minnesota RØKKR,250,winner,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,
+3,Cammy,21,13,1.62,90,Minnesota RØKKR,250,winner,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,
+4,Zer0,18,20,0.90,62,London Royal Ravens,131,loser,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,
+5,Nastie,15,18,0.83,34,London Royal Ravens,131,loser,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,
+6,Asim,14,20,0.70,29,London Royal Ravens,131,loser,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,
+7,Skrapz,8,17,0.47,60,London Royal Ravens,131,loser,MRLRRW1M2, Hotel,Hardpoint,8:36,Minnesota RØKKR,,,,,
+0,Attach,5,6,0.83,,Minnesota RØKKR,6,winner,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,1,1,0,1,
+1,Afro,12,4,3.00,,Minnesota RØKKR,6,winner,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,1,1,0,1,
+2,Bance,8,6,1.33,,Minnesota RØKKR,6,winner,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,3,1,1,0,
+3,Cammy,6,6,1.00,,Minnesota RØKKR,6,winner,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,1,1,1,0,
+4,Zer0,5,7,0.71,,London Royal Ravens,4,loser,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,0,0,2,0,
+5,Nastie,8,7,1.13,,London Royal Ravens,4,loser,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,1,1,1,1,
+6,Asim,4,8,0.50,,London Royal Ravens,4,loser,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,3,4,0,0,
+7,Skrapz,5,9,0.56,,London Royal Ravens,4,loser,MRLRRW1M2, Fortress,SearchandDestroy,9:54,Minnesota RØKKR,0,1,0,0,
+0,Cellium,19,19,1.00,52,Atlanta FaZe,250,winner,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,
+1,Simp,22,24,0.92,74,Atlanta FaZe,250,winner,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,
+2,aBeZy,23,16,1.44,84,Atlanta FaZe,250,winner,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,
+3,SlasheR,19,14,1.36,84,Atlanta FaZe,250,winner,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,
+4,Sib,18,19,0.95,104,Seattle Surge,187,loser,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,
+5,Accuracy,12,23,0.52,48,Seattle Surge,187,loser,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,
+6,Mack,21,23,0.91,37,Seattle Surge,187,loser,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,
+7,Pred,22,18,1.22,27,Seattle Surge,187,loser,AFSSW1M2, Embassy,Hardpoint,9:46,Atlanta FaZe,,,,,
+0,Cellium,4,2,2.00,,Atlanta FaZe,6,winner,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,0,0,0,0,
+1,Simp,7,4,1.75,,Atlanta FaZe,6,winner,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,2,0,1,0,
+2,aBeZy,11,4,2.75,,Atlanta FaZe,6,winner,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,3,2,0,0,
+3,SlasheR,7,3,2.33,,Atlanta FaZe,6,winner,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,1,0,1,0,
+4,Sib,3,6,0.50,,Seattle Surge,2,loser,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,0,1,0,0,
+5,Accuracy,3,8,0.38,,Seattle Surge,2,loser,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,0,1,0,0,
+6,Mack,4,7,0.56,,Seattle Surge,2,loser,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,2,4,0,0,
+7,Pred,3,8,0.38,,Seattle Surge,2,loser,AFSSW1M2, Mercado,SearchandDestroy,5:45,Atlanta FaZe,0,0,0,0,
+0,Cellium,9,12,0.75,,Atlanta FaZe,3,winner,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,5
+1,Simp,30,14,2.14,,Atlanta FaZe,3,winner,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,6
+2,aBeZy,19,15,1.27,,Atlanta FaZe,3,winner,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,5
+3,SlasheR,16,11,1.45,,Atlanta FaZe,3,winner,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,9
+4,Sib,14,19,0.74,,Seattle Surge,0,loser,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,2
+5,Accuracy,11,15,0.73,,Seattle Surge,0,loser,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,2
+6,Mack,12,21,0.56,,Seattle Surge,0,loser,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,3
+7,Pred,15,19,0.79,,Seattle Surge,0,loser,AFSSW1M2, Hotel,Control,8:37,Atlanta FaZe,,,,,2
+0,KiSMET,19,24,0.79,32,New York Subliners,184,loser,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,
+1,Priestahh,23,21,1.10,47,New York Subliners,184,loser,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,
+2,Skyz,10,19,0.53,108,New York Subliners,184,loser,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,
+3,HyDra,25,23,1.09,16,New York Subliners,184,loser,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,
+4,Octane,19,17,1.12,94,Los Angeles Thieves,250,winner,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,
+5,Drazah,25,21,1.19,61,Los Angeles Thieves,250,winner,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,
+6,Kenny,33,16,2.06,34,Los Angeles Thieves,250,winner,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,
+7,Envoy,10,23,0.43,96,Los Angeles Thieves,250,winner,NYSLATW1M2, Fortress,Hardpoint,9:48,New York Subliners,,,,,
+0,KiSMET,6,8,0.75,,New York Subliners,6,winner,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,1,4,1,0,
+1,Priestahh,9,8,1.12,,New York Subliners,6,winner,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,2,1,0,0,
+2,Skyz,1,10,0.10,,New York Subliners,6,winner,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,0,3,1,0,
+3,HyDra,9,8,1.12,,New York Subliners,6,winner,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,0,0,1,1,
+4,Octane,6,6,1.00,,Los Angeles Thieves,5,loser,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,2,0,0,1,
+5,Drazah,9,6,1.50,,Los Angeles Thieves,5,loser,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,1,3,0,0,
+6,Kenny,12,6,2.00,,Los Angeles Thieves,5,loser,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,3,0,3,0,
+7,Envoy,7,7,1.00,,Los Angeles Thieves,5,loser,NYSLATW1M2, El Asilo,SearchandDestroy,12:28,New York Subliners,2,0,0,0,
+0,KiSMET,33,23,1.43,,New York Subliners,3,winner,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,4
+1,Priestahh,21,24,0.88,,New York Subliners,3,winner,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,3
+2,Skyz,20,28,0.71,,New York Subliners,3,winner,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,0
+3,HyDra,25,25,1.00,,New York Subliners,3,winner,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,3
+4,Octane,24,24,1.00,,Los Angeles Thieves,2,loser,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,6
+5,Drazah,17,24,0.71,,Los Angeles Thieves,2,loser,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,4
+6,Kenny,26,26,1.00,,Los Angeles Thieves,2,loser,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,4
+7,Envoy,33,25,1.32,,Los Angeles Thieves,2,loser,NYSLATW1M2, Fortress,Control,11:47,New York Subliners,,,,,2
+0,KiSMET,26,25,1.04,102,New York Subliners,250,winner,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,
+1,Priestahh,20,20,1.00,71,New York Subliners,250,winner,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,
+2,Skyz,30,22,1.36,71,New York Subliners,250,winner,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,
+3,HyDra,33,24,1.38,26,New York Subliners,250,winner,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,
+4,Octane,21,25,0.84,63,Los Angeles Thieves,219,loser,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,
+5,Drazah,27,26,1.04,91,Los Angeles Thieves,219,loser,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,
+6,Kenny,19,29,0.66,51,Los Angeles Thieves,219,loser,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,
+7,Envoy,24,29,0.83,49,Los Angeles Thieves,219,loser,NYSLATW1M2, Embassy,Hardpoint,11:52,New York Subliners,,,,,
+0,Scrappy,21,11,1.91,143,Toronto Ultra,250,winner,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,
+1,Insight,20,13,1.54,73,Toronto Ultra,250,winner,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,
+2,CleanX,17,23,0.74,4,Toronto Ultra,250,winner,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,
+3,Standy,20,16,1.25,101,Toronto Ultra,250,winner,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,
+4,Vikul,18,20,0.90,58,Florida Mutineers,165,loser,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,
+5,Havok,16,22,0.73,6,Florida Mutineers,165,loser,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,
+6,MajorManiak,10,18,0.56,3,Florida Mutineers,165,loser,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,
+7,Brack,19,18,1.06,110,Florida Mutineers,165,loser,TUFMW1M2, Mercado,Hardpoint,9:07,Toronto Ultra,,,,,
+0,Scrappy,5,7,0.71,,Toronto Ultra,1,loser,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,3,0,0,0,
+1,Insight,2,6,0.33,,Toronto Ultra,1,loser,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,0,2,0,0,
+2,CleanX,1,6,0.17,,Toronto Ultra,1,loser,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,0,2,0,0,
+3,Standy,3,6,0.50,,Toronto Ultra,1,loser,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,0,0,1,0,
+4,Vikul,4,4,1.00,,Florida Mutineers,6,winner,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,0,2,3,0,
+5,Havok,8,3,2.67,,Florida Mutineers,6,winner,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,1,1,0,0,
+6,MajorManiak,8,3,2.67,,Florida Mutineers,6,winner,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,2,0,0,0,
+7,Brack,5,1,5.00,,Florida Mutineers,6,winner,TUFMW1M2, El Asilo,SearchandDestroy,6:57,Toronto Ultra,1,0,0,0,
+0,Scrappy,15,8,1.88,,Toronto Ultra,3,winner,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,3
+1,Insight,13,11,1.18,,Toronto Ultra,3,winner,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,1
+2,CleanX,15,14,1.07,,Toronto Ultra,3,winner,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,3
+3,Standy,21,10,2.10,,Toronto Ultra,3,winner,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,0
+4,Vikul,7,20,0.35,,Florida Mutineers,0,loser,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,0
+5,Havok,9,17,0.53,,Florida Mutineers,0,loser,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,0
+6,MajorManiak,15,14,1.07,,Florida Mutineers,0,loser,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,0
+7,Brack,12,13,0.92,,Florida Mutineers,0,loser,TUFMW1M2, Fortress,Control,6:39,Toronto Ultra,,,,,0
+0,Scrappy,26,16,1.63,64,Toronto Ultra,250,winner,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,
+1,Insight,24,17,1.41,116,Toronto Ultra,250,winner,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,
+2,CleanX,17,19,0.89,73,Toronto Ultra,250,winner,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,
+3,Standy,18,21,0.86,85,Toronto Ultra,250,winner,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,
+4,Vikul,16,28,0.56,42,Florida Mutineers,191,loser,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,
+5,Havok,23,20,1.14,48,Florida Mutineers,191,loser,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,
+6,MajorManiak,21,15,1.40,88,Florida Mutineers,191,loser,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,
+7,Brack,13,22,0.59,66,Florida Mutineers,191,loser,TUFMW1M2, Hotel,Hardpoint,10:01,Toronto Ultra,,,,,
+0,Vivid,18,28,0.64,35,Boston Breach,180,loser,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,
+1,Methodz,17,25,0.68,72,Boston Breach,180,loser,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,
+2,Owakening,21,18,1.17,57,Boston Breach,180,loser,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,
+3,Nero,16,27,0.59,41,Boston Breach,180,loser,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,
+4,Shotzzy,26,23,1.12,69,OpTic Texas,250,winner,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,
+5,Scump,23,19,1.21,71,OpTic Texas,250,winner,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,
+6,Huke,26,20,1.30,91,OpTic Texas,250,winner,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,
+7,iLLeY,23,11,2.09,78,OpTic Texas,250,winner,BBOTW1M2, Hotel,Hardpoint,9:06,Boston Breach,,,,,
+0,Vivid,7,7,1.00,,Boston Breach,6,winner,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,3,2,0,0,
+1,Methodz,3,5,0.60,,Boston Breach,6,winner,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,0,0,0,0,
+2,Owakening,5,4,1.25,,Boston Breach,6,winner,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,0,1,0,0,
+3,Nero,11,4,2.75,,Boston Breach,6,winner,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,2,0,3,1,
+4,Shotzzy,5,5,1.00,,OpTic Texas,2,loser,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,0,0,2,0,
+5,Scump,2,7,0.28,,OpTic Texas,2,loser,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,0,3,0,0,
+6,Huke,3,7,0.43,,OpTic Texas,2,loser,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,2,2,0,0,
+7,iLLeY,10,7,1.43,,OpTic Texas,2,loser,BBOTW1M2, Embassy,SearchandDestroy,9:22,Boston Breach,1,0,0,0,
+0,Vivid,30,28,1.07,,Boston Breach,1,loser,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,Methodz
+1,27,21,1.29,Owakening,,Boston Breach,1,loser,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,16
+2,25,0.64,Nero,22,,Boston Breach,1,loser,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,34
+3,0.65,25,25,1.00,,Boston Breach,1,loser,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,Scump
+4,Shotzzy,14,2.21,Huke,,OpTic Texas,3,winner,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,20
+5,31,1.00,iLLeY,19,,OpTic Texas,3,winner,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,23
+6,20,Game 4 ,0,0,,OpTic Texas,3,winner,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,0
+7,0.83,0,0,0,,OpTic Texas,3,winner,BBOTW1M2, Hotel,Control,9:41,Boston Breach,,,,,0
+0,Vivid,25,34,0.74,51,Boston Breach,250,winner,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,
+1,Methodz,25,24,1.04,107,Boston Breach,250,winner,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,
+2,Owakening,25,21,1.19,76,Boston Breach,250,winner,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,
+3,Nero,36,29,1.24,61,Boston Breach,250,winner,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,
+4,Shotzzy,21,28,0.75,73,OpTic Texas,244,loser,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,
+5,Scump,31,27,1.14,49,OpTic Texas,244,loser,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,
+6,Huke,33,29,1.13,105,OpTic Texas,244,loser,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,
+7,iLLeY,23,27,0.85,34,OpTic Texas,244,loser,BBOTW1M2, Embassy,Hardpoint,12:03,Boston Breach,,,,,
+0,Vivid,13,7,1.86,,Boston Breach,3,loser,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,5,1,0,0,
+1,Methodz,3,7,0.43,,Boston Breach,3,loser,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,0,1,0,0,
+2,Owakening,6,6,1.00,,Boston Breach,3,loser,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,1,0,1,0,
+3,Nero,0,7,0.00,,Boston Breach,3,loser,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,0,1,1,0,
+4,Shotzzy,5,6,0.83,,OpTic Texas,6,winner,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,0,1,0,0,
+5,Scump,7,6,1.17,,OpTic Texas,6,winner,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,0,1,1,0,
+6,Huke,8,6,1.33,,OpTic Texas,6,winner,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,2,4,0,0,
+7,iLLeY,7,4,1.75,,OpTic Texas,6,winner,BBOTW1M2, Mercado,SearchandDestroy,9:19,Boston Breach,1,0,1,1,
+0,Assault,23,16,1.44,75,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,
+1,Exceed,24,23,1.04,73,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,
+2,JoeDeceives,28,17,1.65,114,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,
+3,Arcitys,18,21,0.86,12,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,
+4,Octane,21,23,0.91,64,Los Angeles Thieves,153,loser,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,
+5,Drazah,19,21,0.90,38,Los Angeles Thieves,153,loser,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,
+6,Kenny,18,24,0.75,4,Los Angeles Thieves,153,loser,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,
+7,Envoy,19,25,0.76,68,Los Angeles Thieves,153,loser,LAGLATW1M2, Embassy,Hardpoint,10:05,Los Angeles Guerrillas,,,,,
+0,Assault,7,5,1.40,,Los Angeles Guerrillas,6,winner,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,0,1,0,0,
+1,Exceed,9,6,1.50,,Los Angeles Guerrillas,6,winner,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,3,2,0,0,
+2,JoeDeceives,6,5,1.20,,Los Angeles Guerrillas,6,winner,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,1,0,5,0,
+3,Arcitys,9,7,1.29,,Los Angeles Guerrillas,6,winner,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,1,2,0,1,
+4,Octane,3,8,0.38,,Los Angeles Thieves,4,loser,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,0,0,0,1,
+5,Drazah,7,7,1.00,,Los Angeles Thieves,4,loser,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,2,3,0,0,
+6,Kenny,6,9,0.67,,Los Angeles Thieves,4,loser,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,1,0,2,0,
+7,Envoy,7,7,1.00,,Los Angeles Thieves,4,loser,LAGLATW1M2, El Asilo,SearchandDestroy,11:58,Los Angeles Guerrillas,2,2,2,0,
+0,Assault,18,24,0.75,,Los Angeles Guerrillas,1,loser,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,1
+1,Exceed,27,32,0.84,,Los Angeles Guerrillas,1,loser,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,4
+2,JoeDeceives,20,31,0.65,,Los Angeles Guerrillas,1,loser,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,2
+3,Arcitys,25,26,0.96,,Los Angeles Guerrillas,1,loser,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,6
+4,Octane,31,25,1.24,,Los Angeles Thieves,3,winner,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,2
+5,Drazah,27,19,1.42,,Los Angeles Thieves,3,winner,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,5
+6,Kenny,28,25,1.12,,Los Angeles Thieves,3,winner,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,3
+7,Envoy,27,21,1.29,,Los Angeles Thieves,3,winner,LAGLATW1M2, Fortress,Control,12:12,Los Angeles Guerrillas,,,,,5
+0,Assault,22,25,0.88,56,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,
+1,Exceed,24,29,0.83,63,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,
+2,JoeDeceives,26,29,0.90,56,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,
+3,Arcitys,34,17,2.00,85,Los Angeles Guerrillas,250,winner,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,
+4,Octane,19,24,0.79,35,Los Angeles Thieves,199,loser,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,
+5,Drazah,17,24,0.71,82,Los Angeles Thieves,199,loser,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,
+6,Kenny,34,29,1.17,58,Los Angeles Thieves,199,loser,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,
+7,Envoy,30,29,1.03,66,Los Angeles Thieves,199,loser,LAGLATW1M2, Fortress,Hardpoint,11:22,Los Angeles Guerrillas,,,,,

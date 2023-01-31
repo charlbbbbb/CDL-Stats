@@ -85,8 +85,8 @@ def short_format_to_pandas(page: CodFandomPage, major: int, week:int ) -> pd.Dat
                     team_1_df['map_outcome'] = ['winner' for i in range(len(team_1_df['kd']))]
                     team_2_df['map_outcome'] = ['loser' for i in range(len(team_2_df['kd']))]
                 else:
-                    team_2_df['outcome'] = ['winner' for i in range(len(team_2_df['kd']))]
-                    team_1_df['outcome'] = ['loser' for i in range(len(team_1_df['kd']))]
+                    team_2_df['map_outcome'] = ['winner' for i in range(len(team_2_df['kd']))]
+                    team_1_df['map_outcome'] = ['loser' for i in range(len(team_1_df['kd']))]
                 
                 both_team_stats = pd.concat([team_1_df, team_2_df])
                 both_team_stats['matchID'] = [create_match_id(map.map_info, major, week) for i in range(len(both_team_stats['kd']))]
@@ -118,7 +118,7 @@ def major_csv(major: int, week: int, format: str = 'long') -> None:
         raise Exception("Invalid entry for data format\nPlease enter 'long' or 'short'")
     output_df.to_csv(f"{DATA_SAVE_LOCATION}major{major}_week{week}_{format}.csv", index=False)
 
-major_csv(9, 3)
+major_csv(2, 1, 'short')
 
 
 
