@@ -56,6 +56,14 @@ def all_modes_agg(dataframe: pd.DataFrame, mode: str = 'all') -> pd.DataFrame:
 
     return df_numeric
 
+def get_outliers(data_1, data_2):
+    d1_mean = data_1.mean()
+    d2_mean = data_2.mean()
+    d1_new = [round(a/b, 2) if b > 0 else 0 for a, b in zip(data_1, [d1_mean for i in range(data_1)])]
+    d2_new = [round(a/b, 2) if b > 0 else 0 for a, b in zip(data_2, [d2_mean for i in range(data_2)])]
+    score = [round((a+b)/2, 2) for a, b in zip(d1_new, d2_new)]
+    return score
+    
 
 def assign_extra_vars(df):
     df['map_winner'] = ["host" if a > b else "guest" for a, b in zip(df['matchGameResult.hostGameScore'], df['matchGameResult.guestGameScore'])]
@@ -108,7 +116,7 @@ def cdl_movement(df, host_name, guest_name, host_colour, guest_colour, x_size=7,
     df_refined = df[['alias', 'gameMode', 'gameMap', 'totalDistanceTraveled', 'totalDamageDealt', 'totalShotsFired', 'totalShotsHit', 
         'totalAssists', 'totalDeaths', 'totalKills', 'hillTime', 'percentTimeMoving', 'lethalsUsed', 'tacticalsUsed',
         'tradedDeaths', 'tradedKills', 'untradedDeaths', 'untradedKills', 'team_type', 'totalRotationKills', 
-        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev','totalFirstBloodKills'
+        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev','totalFirstBloodKills', 'abbrev'
         ]]
     df_refined = assign_extra_vars(df_refined)
     if not control:
@@ -120,9 +128,11 @@ def cdl_movement(df, host_name, guest_name, host_colour, guest_colour, x_size=7,
     fig = plt.figure(figsize=(x_size, y_size))
     ax1 = fig.subplots()
     ax1.set_title(f"Amount of Movement (Roughly) - {host_name} {'vs' if guest_name != '' else ''} {guest_name}")
-    sns.scatterplot(data=df_refined, x='percentTimeMoving', y='totalDistanceTraveled', hue='gameMode', ax=ax1)
-    for x, y, s, t, abb in zip(df_refined['percentTimeMoving'], df_refined['totalDistanceTraveled'], df_refined['alias'], df_refined['team_type'], df_refined['oppo_abbrev']):
-        ax1.text(x+0.3, y, f"{s} ({abb})", alpha=0.6, color=(host_colour if t == 'host' else guest_colour))
+    sns.scatterplot(data=df_refined, x='percentTimeMoving', y='totalDistanceTraveled', hue='abbrev', ax=ax1, style='gameMode')
+    for x, y, s, t, abb, score in zip(df_refined['percentTimeMoving'], df_refined['totalDistanceTraveled'], df_refined['alias'], df_refined['team_type'], df_refined['oppo_abbrev'], 
+                                      get_outliers(df['percentTimeMoving'], df_refined['totalDistanceTraveled'])):
+        if score > 1.1 or score < 0.9:
+            ax1.text(x+0.3, y, f"{s} ({abb})", alpha=0.6, color=(host_colour if t == 'host' else guest_colour))
     ax1.spines[['right', 'top']].set_visible(False)
     ax1.grid(True, alpha=0.4)
     ax1.legend(loc=legend_location);

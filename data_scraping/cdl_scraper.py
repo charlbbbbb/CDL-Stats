@@ -23,12 +23,13 @@ def parse_cdl_website(matchID, save=True):
 
     response = requests.get(url, headers=cdl_headers).json()
 
-    def parse_player(data, player_num, team_type, abbrev):
+    def parse_player(data, player_num, team_type, abbrev, team_abbrev):
         if not data.shape[1]:
             return pd.DataFrame()
         parsed_stats = pd.DataFrame(data['stats'][player_num], index=[0])
         parsed_stats["team_type"] = [team_type]
         parsed_stats["oppo_abbrev"]= [abbrev]
+        parsed_stats["abbrev"]= [team_abbrev]
         full_team_map = data.merge(parsed_stats, on='id', how='inner').drop("stats", axis=1)
         return full_team_map
 
@@ -42,8 +43,8 @@ def parse_cdl_website(matchID, save=True):
         host_md = pd.DataFrame(response['data']['matchData']['matchStats']['matches']['hostTeam'][i])
         guest_md = pd.DataFrame(response['data']['matchData']['matchStats']['matches']['guestTeam'][i])
         for player in range(4):
-            complete_match_df = pd.concat([complete_match_df, parse_player(host_md, player_num=player, team_type="host", abbrev=guest_abrv)])
-            complete_match_df = pd.concat([complete_match_df, parse_player(guest_md, player_num=player, team_type="guest", abbrev=host_abrv)])
+            complete_match_df = pd.concat([complete_match_df, parse_player(host_md, player_num=player, team_type="host", abbrev=guest_abrv, team_abbrev=host_abrv)])
+            complete_match_df = pd.concat([complete_match_df, parse_player(guest_md, player_num=player, team_type="guest",abbrev=host_abrv, team_abbrev=host_abrv)])
 
     match_info = pd.json_normalize(response['data']['matchData']['matchGamesExtended'])
     match_info.rename(columns={"matchGame.mode": "gameMode",
@@ -56,5 +57,9 @@ def parse_cdl_website(matchID, save=True):
         joined.to_csv(f"data/cdl_{matchID}.csv", index=False)
     return joined
 
+
 for i in range(8718, 8748):
-    parse_cdl_website(i)
+    try:
+        parse_cdl_website(i)
+    except:
+        pass
