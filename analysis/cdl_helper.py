@@ -24,7 +24,7 @@ def generate_outlier_score(column1, column2, method: str):
     col1_scores = (np.array([abs(round(a/b, 2)-1) if b > 0 else 0 for a, b in\
                          zip(column1, [column1.mean() if method.lower=='mean' else column1.median() for i in column1])]))
     col2_scores = (np.array([abs(round(a/b, 2)-1) if b > 0 else 0 for a, b in\
-                         zip(column2, [column2.mean() if method.lower=='mean' else column1.median() for i in column2])]))
+                         zip(column2, [column2.mean() if method.lower=='mean' else column2.median() for i in column2])]))
     
     return (col1_scores+col2_scores)/2
 
@@ -41,7 +41,7 @@ def compare_stats(df: pd.DataFrame, col1:str , col2: str, title: str = None,
                    sens=None, hue_by="abbrev", gamemode=None, team=None,
                      size=(10, 10), show_winner=False, grid=True,
                      legend=True, outlier_method='mean', map=None,
-                     pal=None, x_gap=0, hidden_spines=None):
+                     pal=None, x_gap=0, hidden_spines=None, show_event=False):
     
     df = declare_winner(df)
 
@@ -58,7 +58,12 @@ def compare_stats(df: pd.DataFrame, col1:str , col2: str, title: str = None,
         df = df[df['gameMap'].isin([map] if type(map) == str else map)]
 
 
-    sns.scatterplot(df, x=col1, y=col2, hue=hue_by, style='is_winner' if show_winner else  None, ax=ax1, 
+    chosen_style = None
+    if show_winner:
+        chosen_style = 'is_winner'
+    if show_event:
+        chosen_style = 'event'
+    sns.scatterplot(df, x=col1, y=col2, hue=hue_by, style=chosen_style, ax=ax1, 
                     palette = pal if pal else sns.color_palette("tab10"))
     ax1.set_title(title if title else f"{col1} vs {col2}")
 
@@ -96,8 +101,23 @@ cdl_headers = {
     "TE": "trailers"}
 
 
-def get_matches(major, event):
-    pass
+def get_matches(url):
+    response = requests.get(url, headers=cdl_headers).text
+    match_ids = []
+    matches = re.findall('"match":{"id":[0-9]+', response)
+    second_matches = re.findall('match/[0-9]+', response)
+    second_matches = [i.split('/')[-1] for i in second_matches]
+    matches.extend(second_matches)
+    for match in matches:
+        match_ids.append(match.split(':')[-1])
+    return match_ids
+
+def read_in_list(ids):
+    frames = []
+    for idd in ids:
+        frames.append(pd.read_csv(f'../data/cdl_{idd}.csv'))
+    return pd.concat(frames)
+
         
     
 

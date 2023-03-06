@@ -44,7 +44,7 @@ def parse_cdl_website(matchID, save=True):
         guest_md = pd.DataFrame(response['data']['matchData']['matchStats']['matches']['guestTeam'][i])
         for player in range(4):
             complete_match_df = pd.concat([complete_match_df, parse_player(host_md, player_num=player, team_type="host", abbrev=guest_abrv, team_abbrev=host_abrv)])
-            complete_match_df = pd.concat([complete_match_df, parse_player(guest_md, player_num=player, team_type="guest",abbrev=host_abrv, team_abbrev=host_abrv)])
+            complete_match_df = pd.concat([complete_match_df, parse_player(guest_md, player_num=player, team_type="guest",abbrev=host_abrv, team_abbrev=guest_abrv)])
 
     match_info = pd.json_normalize(response['data']['matchData']['matchGamesExtended'])
     match_info.rename(columns={"matchGame.mode": "gameMode",
@@ -54,12 +54,14 @@ def parse_cdl_website(matchID, save=True):
 
     if save:
         print(os.getcwd())
-        joined.to_csv(f"data/cdl_{matchID}.csv", index=False)
+        joined.to_csv(f"CDL-Stats/data/cdl_{matchID}.csv", index=False)
     return joined
 
 
-for i in range(8718, 8748):
+print(os.getcwd())
+df = pd.read_json('CDL-Stats/major_ids.json')
+for i in df['major3'][0]:
     try:
-        parse_cdl_website(i)
+        parse_cdl_website(int(i))
     except:
         pass
