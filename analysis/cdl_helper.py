@@ -7,6 +7,20 @@ import json
 import re
 
 
+CDL_PALETTE = {'NY': 'yellow',
+           'LV': 'orange',
+           'BOS': '#0bf52b',
+           'FLA': 'cyan',
+           'MIN': 'purple',
+           'TOR': '#f40afe',
+           'ATL': '#f84c4c',
+           'TX': 'green',
+           'LAT': 'red',
+           'LAG': '#7a0265',
+           'SEA': 'blue',
+           'LDN': '#800020'}
+
+
 def read_number_range(start: int, end: int) -> pd.DataFrame:
     not_exist = []
     dataframes = []
