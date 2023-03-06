@@ -53,8 +53,8 @@ def parse_cdl_website(matchID, save=True):
 
     if save:
         print(os.getcwd())
-        joined.to_csv(f"CDL-Stats/data/cdl_{matchID}.csv", index=False)
+        joined.to_csv(f"data/cdl_{matchID}.csv", index=False)
     return joined
 
-for i in range(8716, 8745):
+for i in range(8718, 8748):
     parse_cdl_website(i)

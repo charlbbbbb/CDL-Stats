@@ -69,14 +69,21 @@ def assign_extra_vars(df):
     df['deaths_traded_perc'] = [(a/b)*100  if b > 0 else 0 for a, b in zip(df['tradedDeaths'], df['totalDeaths'])]
 
     df['damage_per_kill'] = [round(a/b, 0) if b > 0 else 0 for a, b in zip(df['totalDamageDealt'], df['totalKills'])]
+
+    df['kd'] = [round((a/b), 2) if b > 0 else a for a, b in zip(df['totalKills'], df['totalDeaths'])]
+
+    df['rot_kill_perc'] = [round((a/b)*100, 2) if b > 0 else 0 for a, b in zip(df['totalRotationKills'], df['totalKills'])]
+
+    df['fb_perc'] = [round((a/b)*100, 2) if b > 0 else 0 for a, b in zip(df['totalFirstBloodKills'], df['totalKills'])]
+
     return df
 
-def cdl_untraded_kill_traded_deaths(df, host_name, guest_name, host_colour, guest_colour, save_name, x_size=7, y_size=8, save_location=None, legend_location="upper left",
+def cdl_untraded_kill_traded_deaths(df, host_name, guest_name, host_colour, guest_colour, x_size=7, y_size=8, legend_location="upper left",
                                     control=True, hardpoint=True, search=True):
     df_refined = df[['alias', 'gameMode', 'gameMap', 'totalDistanceTraveled', 'totalDamageDealt', 'totalShotsFired', 'totalShotsHit', 
         'totalAssists', 'totalDeaths', 'totalKills', 'hillTime', 'percentTimeMoving', 'lethalsUsed', 'tacticalsUsed',
         'tradedDeaths', 'tradedKills', 'untradedDeaths', 'untradedKills', 'team_type', 'totalRotationKills', 
-        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev'
+        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev', 'totalFirstBloodKills'
         ]]
     df_refined = assign_extra_vars(df_refined)
     if not control:
@@ -87,7 +94,7 @@ def cdl_untraded_kill_traded_deaths(df, host_name, guest_name, host_colour, gues
         df_refined = df_refined[df_refined['gameMode'] != "CDL SnD"]
     fig = plt.figure(figsize=(x_size, y_size))
     ax1 = fig.subplots()
-    ax1.set_title(f"Untraded Deaths vs Untraded Kills % {host_name} vs {guest_name}")
+    ax1.set_title(f"Traded Deaths % vs Untraded Kills % {host_name} {'vs' if guest_name != '' else ''} {guest_name}")
     sns.scatterplot(data=df_refined, x='kills_untraded_perc', y='deaths_traded_perc', hue='gameMode', ax=ax1)
     for x, y, s, t, abb in zip(df_refined['kills_untraded_perc'], df_refined['deaths_traded_perc'], df_refined['alias'], df_refined['team_type'], df_refined['oppo_abbrev']):
         ax1.text(x+0.3, y, f"{s} ({abb})", alpha=0.6, color=(host_colour if t == 'host' else guest_colour))
@@ -95,14 +102,13 @@ def cdl_untraded_kill_traded_deaths(df, host_name, guest_name, host_colour, gues
     ax1.grid(True, alpha=0.4)
     ax1.legend(loc=legend_location);
 
-    fig.savefig(f"{save_location if save_location else ''}/{save_name}.PNG")
 
-def cdl_movement(df, host_name, guest_name, host_colour, guest_colour, save_name, x_size=7, y_size=8, save_location=None, legend_location="upper left",
+def cdl_movement(df, host_name, guest_name, host_colour, guest_colour, x_size=7, y_size=8, legend_location="upper left",
                   control=True, hardpoint=True, search=True):
     df_refined = df[['alias', 'gameMode', 'gameMap', 'totalDistanceTraveled', 'totalDamageDealt', 'totalShotsFired', 'totalShotsHit', 
         'totalAssists', 'totalDeaths', 'totalKills', 'hillTime', 'percentTimeMoving', 'lethalsUsed', 'tacticalsUsed',
         'tradedDeaths', 'tradedKills', 'untradedDeaths', 'untradedKills', 'team_type', 'totalRotationKills', 
-        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev'
+        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev','totalFirstBloodKills'
         ]]
     df_refined = assign_extra_vars(df_refined)
     if not control:
@@ -113,7 +119,7 @@ def cdl_movement(df, host_name, guest_name, host_colour, guest_colour, save_name
         df_refined = df_refined[df_refined['gameMode'] != "CDL SnD"]
     fig = plt.figure(figsize=(x_size, y_size))
     ax1 = fig.subplots()
-    ax1.set_title(f"Amount of Movement (Roughly) - {host_name} vs {guest_name}")
+    ax1.set_title(f"Amount of Movement (Roughly) - {host_name} {'vs' if guest_name != '' else ''} {guest_name}")
     sns.scatterplot(data=df_refined, x='percentTimeMoving', y='totalDistanceTraveled', hue='gameMode', ax=ax1)
     for x, y, s, t, abb in zip(df_refined['percentTimeMoving'], df_refined['totalDistanceTraveled'], df_refined['alias'], df_refined['team_type'], df_refined['oppo_abbrev']):
         ax1.text(x+0.3, y, f"{s} ({abb})", alpha=0.6, color=(host_colour if t == 'host' else guest_colour))
@@ -121,14 +127,13 @@ def cdl_movement(df, host_name, guest_name, host_colour, guest_colour, save_name
     ax1.grid(True, alpha=0.4)
     ax1.legend(loc=legend_location);
 
-    fig.savefig(f"{save_location if save_location else ''}/{save_name}.PNG")
 
-def damage_accuracy(df, host_name, guest_name, host_colour, guest_colour, save_name, x_size=7, y_size=8, save_location=None, legend_location="upper left",
+def cdl_damage_accuracy(df, host_name, guest_name, host_colour, guest_colour, save_name, x_size=7, y_size=8, save_location=None, legend_location="upper left",
                      control=True, hardpoint=True, search=True):
     df_refined = df[['alias', 'gameMode', 'gameMap', 'totalDistanceTraveled', 'totalDamageDealt', 'totalShotsFired', 'totalShotsHit', 
         'totalAssists', 'totalDeaths', 'totalKills', 'hillTime', 'percentTimeMoving', 'lethalsUsed', 'tacticalsUsed',
         'tradedDeaths', 'tradedKills', 'untradedDeaths', 'untradedKills', 'team_type', 'totalRotationKills', 
-        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev'
+        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev', 'totalFirstBloodKills'
         ]]
     df_refined = assign_extra_vars(df_refined)
     if not control:
@@ -139,7 +144,7 @@ def damage_accuracy(df, host_name, guest_name, host_colour, guest_colour, save_n
         df_refined = df_refined[df_refined['gameMode'] != "CDL SnD"]
     fig = plt.figure(figsize=(x_size, y_size))
     ax1 = fig.subplots()
-    ax1.set_title(f"Accuracy vs Damage per Kill - {host_name} vs {guest_name}")
+    ax1.set_title(f"Accuracy vs Damage per Kill - {host_name} {'vs' if guest_name != '' else ''} {guest_name}")
     sns.scatterplot(data=df_refined, x='accuracy', y='damage_per_kill', hue='gameMode', ax=ax1)
     for x, y, s, t, abb in zip(df_refined['accuracy'], df_refined['damage_per_kill'], df_refined['alias'], df_refined['team_type'], df_refined['oppo_abbrev']):
         ax1.text(x+0.3, y, f"{s} ({abb})", alpha=0.6, color=(host_colour if t == 'host' else guest_colour))
@@ -149,6 +154,100 @@ def damage_accuracy(df, host_name, guest_name, host_colour, guest_colour, save_n
     ax1.set_xlabel("Accuracy (%)")
     ax1.set_ylabel("Damage per Kill")
 
-    fig.savefig(f"{save_location if save_location else ''}/{save_name}.PNG")
 
 
+def cdl_kd_hill(df, host_name, guest_name, host_colour, guest_colour, x_size=7, y_size=8, legend_location="upper left"):
+    df_refined = df[['alias', 'gameMode', 'gameMap', 'totalDistanceTraveled', 'totalDamageDealt', 'totalShotsFired', 'totalShotsHit', 
+        'totalAssists', 'totalDeaths', 'totalKills', 'hillTime', 'percentTimeMoving', 'lethalsUsed', 'tacticalsUsed',
+        'tradedDeaths', 'tradedKills', 'untradedDeaths', 'untradedKills', 'team_type', 'totalRotationKills', 
+        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev',  'totalFirstBloodKills'
+        ]]
+    df_refined = assign_extra_vars(df_refined)
+    df_refined = df_refined[df_refined["gameMode"]=="CDL Hardpoint"]
+    fig = plt.figure(figsize=(x_size, y_size))
+    ax1 = fig.subplots()
+    ax1.set_title(f"Hill Time vs KD - {host_name} {'vs' if guest_name != '' else ''} {guest_name}")
+    sns.scatterplot(data=df_refined, x='kd', y='hillTime', hue='gameMode', ax=ax1)
+    for x, y, s, t, abb in zip(df_refined['kd'], df_refined['hillTime'], 
+                                  df_refined['alias'], df_refined['team_type'], df_refined['oppo_abbrev']):
+        ax1.text(x+0.03, y, f"{s} ({abb})", alpha=0.6, color=(host_colour if t == 'host' else guest_colour))
+    ax1.spines[['right', 'top']].set_visible(False)
+    ax1.grid(True, alpha=0.4)
+    ax1.legend(loc=legend_location);
+    ax1.set_xlabel("KD")
+    ax1.set_ylabel("Hill Time")
+
+
+def cdl_rot_kills(df, host_name, guest_name, host_colour, guest_colour, x_size=7, y_size=8, legend_location="upper left"):
+    df_refined = df[['alias', 'gameMode', 'gameMap', 'totalDistanceTraveled', 'totalDamageDealt', 'totalShotsFired', 'totalShotsHit', 
+        'totalAssists', 'totalDeaths', 'totalKills', 'hillTime', 'percentTimeMoving', 'lethalsUsed', 'tacticalsUsed',
+        'tradedDeaths', 'tradedKills', 'untradedDeaths', 'untradedKills', 'team_type', 'totalRotationKills', 
+        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev', 'totalFirstBloodKills'
+        ]]
+    df_refined = assign_extra_vars(df_refined)
+    df_refined = df_refined[df_refined["gameMode"]=="CDL Hardpoint"]
+    fig = plt.figure(figsize=(x_size, y_size))
+    ax1 = fig.subplots()
+    ax1.set_title(f"Hill Time vs Percent of Kills that are Rotational Kills - {host_name} {'vs' if guest_name != '' else ''} {guest_name}")
+    sns.scatterplot(data=df_refined, x='rot_kill_perc', y='hillTime', hue='gameMode', ax=ax1)
+    for x, y, s, t, abb in zip(df_refined['rot_kill_perc'], df_refined['hillTime'], 
+                                  df_refined['alias'], df_refined['team_type'], df_refined['oppo_abbrev']):
+        ax1.text(x+0.3, y, f"{s} ({abb})", alpha=0.6, color=(host_colour if t == 'host' else guest_colour))
+    ax1.spines[['right', 'top']].set_visible(False)
+    ax1.grid(True, alpha=0.4)
+    ax1.legend(loc=legend_location);
+    ax1.set_xlabel("% of kills that are rotational kills")
+    ax1.set_ylabel("Hill Time")
+
+def cdl_fb_perc(df, host_name, guest_name, host_colour, guest_colour, x_size=7, y_size=8, legend_location="upper left"):
+    df_refined = df[['alias', 'gameMode', 'gameMap', 'totalDistanceTraveled', 'totalDamageDealt', 'totalShotsFired', 'totalShotsHit', 
+        'totalAssists', 'totalDeaths', 'totalKills', 'hillTime', 'percentTimeMoving', 'lethalsUsed', 'tacticalsUsed',
+        'tradedDeaths', 'tradedKills', 'untradedDeaths', 'untradedKills', 'team_type', 'totalRotationKills', 
+        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev', 'totalFirstBloodKills', 'deadSilenceTime'
+        ]]
+    df_refined = assign_extra_vars(df_refined)
+    df_refined = df_refined[df_refined["gameMode"]=="CDL SnD"]
+    df_refined = df_refined[df_refined['totalKills'] > 5]
+    fig = plt.figure(figsize=(x_size, y_size))
+    ax1 = fig.subplots()
+    ax1.set_title(f"First Blood % vs KD (atleast 6 kills) - {host_name} {'vs' if guest_name != '' else ''} {guest_name}")
+    sns.scatterplot(data=df_refined, x='fb_perc', y='kd', hue='gameMode', ax=ax1)
+    for x, y, s, t, abb in zip(df_refined['fb_perc'], df_refined['kd'], 
+                                  df_refined['alias'], df_refined['team_type'], df_refined['oppo_abbrev']):
+        ax1.text(x+0.3, y, f"{s} ({abb})", alpha=0.6, color=(host_colour if t == 'host' else guest_colour))
+    ax1.spines[['right', 'top']].set_visible(False)
+    ax1.grid(True, alpha=0.4)
+    ax1.legend(loc=legend_location);
+    ax1.set_xlabel("First Blood % (of players kills)")
+    ax1.set_ylabel("KD")
+
+def cdl_fair_fights(df, host_name, guest_name, host_colour, guest_colour, x_size=7, y_size=8, legend_location="upper left",
+                    control=True, hardpoint=True, search=True):
+    df_refined = df[['alias', 'gameMode', 'gameMap', 'totalDistanceTraveled', 'totalDamageDealt', 'totalShotsFired', 'totalShotsHit', 
+        'totalAssists', 'totalDeaths', 'totalKills', 'hillTime', 'percentTimeMoving', 'lethalsUsed', 'tacticalsUsed',
+        'tradedDeaths', 'tradedKills', 'untradedDeaths', 'untradedKills', 'team_type', 'totalRotationKills', 
+        'matchGameResult.hostGameScore', 'matchGameResult.guestGameScore', 'oppo_abbrev', 'totalFirstBloodKills', 'deadSilenceTime',
+        'totalInVictimFovKills'
+        ]]
+    df_refined = assign_extra_vars(df_refined)
+    if not control:
+        df_refined = df_refined[df_refined['gameMode'] != 'CDL Control']
+    if not hardpoint:
+        df_refined = df_refined[df_refined['gameMode'] != "CDL Hardpoint"]
+    if not search:
+        df_refined = df_refined[df_refined['gameMode'] != "CDL SnD"]
+    df_refined.reset_index(inplace=True)
+    df_refined['fair_fights'] = ((df_refined['totalInVictimFovKills']/df['totalKills'])*100).round(2)
+    fig = plt.figure(figsize=(x_size, y_size))
+    ax1 = fig.subplots()
+    ax1.set_title(f"Fair Fight Wins - {host_name} {'vs' if guest_name != '' else ''} {guest_name}")
+    sns.scatterplot(data=df_refined, x='totalKills', y='totalInVictimFovKills', ax=ax1, hue='fair_fights',cmap="coolwarm", )
+    # for x, y, s, t, abb in zip(df_refined['totalKills'], df_refined['totalInVictimFovKills'], 
+    #                               df_refined['alias'], df_refined['team_type'], df_refined['oppo_abbrev']):
+    #     ax1.text(x+0.3, y, f"{s} ({abb})", alpha=0.6, color=(host_colour if t == 'host' else guest_colour))
+    ax1.spines[['right', 'top']].set_visible(False)
+    ax1.grid(True, alpha=0.4)
+    ax1.legend(loc=legend_location);
+    ax1.set_xlabel("Total Kills")
+    ax1.set_ylabel("Total Kills in Victim FOV")
+    
