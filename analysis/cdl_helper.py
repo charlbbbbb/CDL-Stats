@@ -133,8 +133,28 @@ def read_in_list(ids):
     return pd.concat(frames)
 
         
-    
+def read_in_all_matches() -> pd.DataFrame:
 
+    matchIDs = pd.read_json('../major_ids.json')
+
+    m1_qual = read_in_list(matchIDs['major1'][0])
+    m2_qual = read_in_list(matchIDs['major2'][0])
+    m2_event = read_in_list(matchIDs['major2'][1])
+    m3_qual = read_in_list(matchIDs['major3'][0])
+
+    m1_qual['event'] = ['M1Qual' for i in m1_qual[m1_qual.columns[0]]]
+    m2_qual['event'] = ['M2Qual' for i in m2_qual[m2_qual.columns[0]]]
+    m3_qual['event'] = ['M3Qual' for i in m3_qual[m3_qual.columns[0]]]
+    m2_event['event'] = ['M2Event' for i in m2_event[m2_event.columns[0]]]
+
+    m1_qual['setting'] = ['online' for i in m1_qual[m1_qual.columns[0]]]
+    m2_qual['setting'] = ['online' for i in m2_qual[m2_qual.columns[0]]]
+    m3_qual['setting'] = ['online' for i in m3_qual[m3_qual.columns[0]]]
+    m2_event['setting'] = ['lan' for i in m2_event[m2_event.columns[0]]]
+
+    complete_df = pd.concat([m1_qual, m2_event, m2_qual, m3_qual])
+
+    return complete_df
 
 
     
