@@ -46,39 +46,48 @@ def reshape_all():
     df = reshape_match(df)
     return df
 
-def hardpoint_model(predict_data):
+def hardpoint_model(predict_data, team_map, sim_count=1):
     dat = reshape_all()
     hard = dat[dat['mode']=='CDL Hardpoint'].drop(['fbPerc_team1', 'fbPerc_team2'], axis=1)
     hard.dropna(how='any', axis=0, inplace=True)
     hard['winner'] = label_encoder.fit_transform(hard['winner'])
     trainX = hard.drop(['winner', 'mode'], axis=1)
     trainY = hard['winner']
-    rf = RandomForestClassifier(max_depth=11, n_estimators=67)
-    rf.fit(trainX, trainY)
-    prediction = rf.predict(predict_data)
-    return prediction
+    simulations = []
+    for i in range(sim_count):
+        rf = RandomForestClassifier(max_depth=11, n_estimators=67)
+        rf.fit(trainX, trainY)
+        prediction = rf.predict(predict_data)
+        simulations.append(team_map[prediction[0]])
+    return simulations
 
-def control_model(predict_data):
+def control_model(predict_data, team_map, sim_count=1):
     dat = reshape_all()
     cnt = dat[dat['mode']=='CDL Control'].drop(['fbPerc_team1', 'fbPerc_team2', 'rotationalPercent_team1', 'rotationalPercent_team2'], axis=1)
     cnt.dropna(how='any', axis=0, inplace=True)
     cnt['winner'] = label_encoder.fit_transform(cnt['winner'])
     trainX = cnt.drop(['winner', 'mode'], axis=1)
     trainY = cnt['winner']
-    rf = RandomForestClassifier(max_depth=4, n_estimators=306)
-    rf.fit(trainX, trainY)
-    prediction = rf.predict(predict_data)
-    return prediction
+    simulations = []
+    for i in range(sim_count):
+        rf = RandomForestClassifier(max_depth=4, n_estimators=306)
+        rf.fit(trainX, trainY)
+        prediction = rf.predict(predict_data)
+        simulations.append(team_map[prediction[0]])
+    return simulations
 
-def snd_model(predict_data):
+def snd_model(predict_data, team_map, sim_count=1):
     dat = reshape_all()
     snd = dat[dat['mode']=='CDL SnD'].drop(['rotationalPercent_team1', 'rotationalPercent_team2'], axis=1)
     snd.dropna(how='any', axis=0, inplace=True)
     snd['winner'] = label_encoder.fit_transform(snd['winner'])
     trainX = snd.drop(['winner', 'mode'], axis=1)
     trainY = snd['winner']
-    rf = RandomForestClassifier(max_depth=17, n_estimators=71)
-    rf.fit(trainX, trainY)
-    prediction = rf.predict(predict_data)
-    return prediction
+    simulations = []
+    for i in range(sim_count):
+        rf = RandomForestClassifier(max_depth=17, n_estimators=71)
+        rf.fit(trainX, trainY)
+        prediction = rf.predict(predict_data)
+        simulations.append(team_map[prediction[0]])
+    return simulations
 
