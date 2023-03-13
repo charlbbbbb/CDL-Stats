@@ -185,4 +185,15 @@ def head_to_head(df, main, opposition, compare, title, axes, gamemode=None, map=
     axes.tick_params(rotation=0)
     axes.set_xlabel('')
 
+def assign_map_winner(df):
+    df['map_winner'] = ["host" if a > b else "guest" for a, b in zip(df['matchGameResult.hostGameScore'], df['matchGameResult.guestGameScore'])]
+
+    df['is_winner'] = [1 if a == b else 0 for a, b in zip(df['map_winner'], df['team_type'])]
+
+
+    return df
+
+def assign_match_winner(df):
+    df['isMatchWinner'] = ['y' if a == b else 'n' for a, b in zip(df['winnerTeamId'], df['team_id'])]
+    return df
 
