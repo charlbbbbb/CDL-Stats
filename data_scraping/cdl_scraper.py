@@ -59,13 +59,13 @@ def parse_cdl_website(matchID, save: bool =True):
                                 "matchGame.map": "gameMap"}, inplace=True)
     joined = complete_match_df.merge(match_info, how='left', on=["gameMode", "gameMap"])
     if save:
-        joined.to_csv(f"CDL-Stats/data/cdl_{matchID}.csv", index=False)
+        joined.to_csv(f"data/cdl_{matchID}.csv", index=False)
     return joined
 
 
 print(os.getcwd())
-df = pd.read_json('CDL-Stats/major_ids.json')
-for i in df['major3'][0]:
+df = pd.read_json('major_ids.json')
+for i in df['major3'][1]:
     try:
         parse_cdl_website(int(i))
     except:
