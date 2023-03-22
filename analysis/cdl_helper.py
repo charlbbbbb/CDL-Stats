@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import requests
-import json
+import os
 import re
 
 
@@ -134,28 +134,66 @@ def read_in_list(ids):
 
         
 def read_in_all_matches() -> pd.DataFrame:
-
     matchIDs = pd.read_json('../major_ids.json')
 
     m1_qual = read_in_list(matchIDs['major1'][0])
     m2_qual = read_in_list(matchIDs['major2'][0])
     m2_event = read_in_list(matchIDs['major2'][1])
     m3_qual = read_in_list(matchIDs['major3'][0])
+    m3_event = read_in_list(matchIDs['major3'][1])
 
     m1_qual['event'] = ['M1Qual' for i in m1_qual[m1_qual.columns[0]]]
     m2_qual['event'] = ['M2Qual' for i in m2_qual[m2_qual.columns[0]]]
     m3_qual['event'] = ['M3Qual' for i in m3_qual[m3_qual.columns[0]]]
+
     m2_event['event'] = ['M2Event' for i in m2_event[m2_event.columns[0]]]
+    m3_event['event'] = ['M3Event' for i in m3_event[m3_event.columns[0]]]
 
     m1_qual['setting'] = ['online' for i in m1_qual[m1_qual.columns[0]]]
     m2_qual['setting'] = ['online' for i in m2_qual[m2_qual.columns[0]]]
     m3_qual['setting'] = ['online' for i in m3_qual[m3_qual.columns[0]]]
-    m2_event['setting'] = ['lan' for i in m2_event[m2_event.columns[0]]]
 
-    complete_df = pd.concat([m1_qual, m2_event, m2_qual, m3_qual])
+    m2_event['setting'] = ['lan' for i in m2_event[m2_event.columns[0]]]
+    m3_event['setting'] = ['lan' for i in m3_event[m3_event.columns[0]]]
+
+    complete_df = pd.concat([m1_qual, m2_event, m2_qual, m3_qual, m3_event])
 
     return complete_df
 
 
-    
+def head_to_head(df, main, opposition, compare, title, axes, gamemode=None, map=None):
+    df['accuracy'] = ((df['totalShotsHit']/df['totalShotsFired'])*100).round(2)
+    df['kd'] = (df['totalKills']/df['totalDeaths']).round(2)
+    if gamemode:
+        df = df[df['gameMode'].isin([gamemode] if type(gamemode) == str else [*gamemode])]
+
+    if map:
+        df = df[df['gameMap'].isin([map] if type(map) == str else [*map])]
+
+    df = df[df['abbrev']==main]
+    df_opp = df.copy()[df['oppo_abbrev']==opposition]
+    df_rest = df.copy()[df['oppo_abbrev']!=opposition]
+    df_opp = df_opp[['alias', compare, 'oppo_abbrev', 'abbrev']]
+    df_rest = df_rest[['alias', compare, 'oppo_abbrev', 'abbrev']]
+    op_stats = df_opp.groupby('alias').mean().reset_index().rename(columns={compare:  f'{compare} vs {opposition}'})
+    rest_stats = df_rest.groupby('alias').mean().reset_index().rename(columns={compare:  f'{compare} vs Rest'})
+    joined = rest_stats.merge(op_stats, how='left', on='alias')
+    joined.set_index('alias', inplace=True)
+    joined.plot(kind='bar', color=['darkblue', CDL_PALETTE[opposition]], ax=axes)
+    axes.set_ylabel(compare)
+    axes.set_title(title)
+    axes.tick_params(rotation=0)
+    axes.set_xlabel('')
+
+def assign_map_winner(df):
+    df['map_winner'] = ["host" if a > b else "guest" for a, b in zip(df['matchGameResult.hostGameScore'], df['matchGameResult.guestGameScore'])]
+
+    df['is_winner'] = [1 if a == b else 0 for a, b in zip(df['map_winner'], df['team_type'])]
+
+
+    return df
+
+def assign_match_winner(df):
+    df['isMatchWinner'] = ['y' if a == b else 'n' for a, b in zip(df['winnerTeamId'], df['team_id'])]
+    return df
 

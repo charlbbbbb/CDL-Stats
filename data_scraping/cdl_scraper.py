@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import os
 
-def parse_player(data: pd.DataFrame, player_num: str, team_type: str, abbrev: str, team_abbrev: str) -> pd.DataFrame:
+def parse_player(data: pd.DataFrame, player_num: str, team_type: str, abbrev: str, team_abbrev: str, team_id: str) -> pd.DataFrame:
         """
         Desc: A function to parse each player from a map/series
         Params:
@@ -20,6 +20,7 @@ def parse_player(data: pd.DataFrame, player_num: str, team_type: str, abbrev: st
         parsed_stats["team_type"] = [team_type]
         parsed_stats["oppo_abbrev"]= [abbrev]
         parsed_stats["abbrev"]= [team_abbrev]
+        parsed_stats['team_id'] = [team_id]
         full_team_map = data.merge(parsed_stats, on='id', how='inner').drop("stats", axis=1)
         return full_team_map
 
@@ -48,25 +49,31 @@ def parse_cdl_website(matchID, save: bool =True):
     complete_match_df = pd.DataFrame()
     host_abrv = response['data']['matchData']['matchExtended']['homeTeamCard']['abbreviation']
     guest_abrv = response['data']['matchData']['matchExtended']['awayTeamCard']['abbreviation']
+    home_id = response['data']['matchData']['matchExtended']['homeTeamCard']['id']
+    guest_id = response['data']['matchData']['matchExtended']['awayTeamCard']['id']
     for i in range(len(response['data']['matchData']['matchStats']['matches']['hostTeam'])):
         host_md = pd.DataFrame(response['data']['matchData']['matchStats']['matches']['hostTeam'][i])
         guest_md = pd.DataFrame(response['data']['matchData']['matchStats']['matches']['guestTeam'][i])
         for player in range(4):
-            complete_match_df = pd.concat([complete_match_df, parse_player(host_md, player_num=player, team_type="host", abbrev=guest_abrv, team_abbrev=host_abrv)])
-            complete_match_df = pd.concat([complete_match_df, parse_player(guest_md, player_num=player, team_type="guest",abbrev=host_abrv, team_abbrev=guest_abrv)])
+            complete_match_df = pd.concat([complete_match_df, parse_player(host_md, player_num=player, team_type="host", abbrev=guest_abrv, team_abbrev=host_abrv, team_id = home_id)])
+            complete_match_df = pd.concat([complete_match_df, parse_player(guest_md, player_num=player, team_type="guest",abbrev=host_abrv, team_abbrev=guest_abrv, team_id = guest_id)])
     match_info = pd.json_normalize(response['data']['matchData']['matchGamesExtended'])
     match_info.rename(columns={"matchGame.mode": "gameMode",
                                 "matchGame.map": "gameMap"}, inplace=True)
     joined = complete_match_df.merge(match_info, how='left', on=["gameMode", "gameMap"])
+    for i in response['data']['matchData']['matchExtended']['result']:
+         joined[i] = response['data']['matchData']['matchExtended']['result'][i]
     if save:
-        joined.to_csv(f"CDL-Stats/data/cdl_{matchID}.csv", index=False)
+        joined.to_csv(f"data/cdl_{matchID}.csv", index=False)
     return joined
 
 
-print(os.getcwd())
-df = pd.read_json('CDL-Stats/major_ids.json')
-for i in df['major3'][0]:
-    try:
-        parse_cdl_website(int(i))
-    except:
-        pass
+df = pd.read_json('major_ids.json')
+for i in df.keys():
+    for j in df[i].keys():
+        for id in df[i][j]:
+            try:
+                parse_cdl_website(int(id))
+            except:
+             pass
+
