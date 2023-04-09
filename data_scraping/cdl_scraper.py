@@ -51,6 +51,7 @@ def parse_cdl_website(matchID, save: bool =True):
     guest_abrv = response['data']['matchData']['matchExtended']['awayTeamCard']['abbreviation']
     home_id = response['data']['matchData']['matchExtended']['homeTeamCard']['id']
     guest_id = response['data']['matchData']['matchExtended']['awayTeamCard']['id']
+    date = response['data']['updatedAt']
     for i in range(len(response['data']['matchData']['matchStats']['matches']['hostTeam'])):
         host_md = pd.DataFrame(response['data']['matchData']['matchStats']['matches']['hostTeam'][i])
         guest_md = pd.DataFrame(response['data']['matchData']['matchStats']['matches']['guestTeam'][i])
@@ -63,6 +64,7 @@ def parse_cdl_website(matchID, save: bool =True):
     joined = complete_match_df.merge(match_info, how='left', on=["gameMode", "gameMap"])
     for i in response['data']['matchData']['matchExtended']['result']:
          joined[i] = response['data']['matchData']['matchExtended']['result'][i]
+    joined['matchDate'] = date
     if save:
         joined.to_csv(f"data/cdl_{matchID}.csv", index=False)
     return joined

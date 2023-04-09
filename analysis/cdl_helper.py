@@ -119,7 +119,7 @@ def get_matches(url):
     response = requests.get(url, headers=cdl_headers).text
     match_ids = []
     matches = re.findall('"match":{"id":[0-9]+', response)
-    second_matches = re.findall('match/[0-9]+', response)
+    second_matches = re.findall(',match/[0-9]+', response)
     second_matches = [i.split('/')[-1] for i in second_matches]
     matches.extend(second_matches)
     for match in matches:
@@ -141,10 +141,12 @@ def read_in_all_matches() -> pd.DataFrame:
     m2_event = read_in_list(matchIDs['major2'][1])
     m3_qual = read_in_list(matchIDs['major3'][0])
     m3_event = read_in_list(matchIDs['major3'][1])
+    m4_qual = read_in_list(matchIDs['major4'][0])
 
     m1_qual['event'] = ['M1Qual' for i in m1_qual[m1_qual.columns[0]]]
     m2_qual['event'] = ['M2Qual' for i in m2_qual[m2_qual.columns[0]]]
     m3_qual['event'] = ['M3Qual' for i in m3_qual[m3_qual.columns[0]]]
+    m4_qual['event'] = ['M4Qual' for i in m4_qual[m4_qual.columns[0]]]
 
     m2_event['event'] = ['M2Event' for i in m2_event[m2_event.columns[0]]]
     m3_event['event'] = ['M3Event' for i in m3_event[m3_event.columns[0]]]
@@ -152,6 +154,7 @@ def read_in_all_matches() -> pd.DataFrame:
     m1_qual['setting'] = ['online' for i in m1_qual[m1_qual.columns[0]]]
     m2_qual['setting'] = ['online' for i in m2_qual[m2_qual.columns[0]]]
     m3_qual['setting'] = ['online' for i in m3_qual[m3_qual.columns[0]]]
+    m4_qual['setting'] = ['online' for i in m4_qual[m4_qual.columns[0]]]
 
     m2_event['setting'] = ['lan' for i in m2_event[m2_event.columns[0]]]
     m3_event['setting'] = ['lan' for i in m3_event[m3_event.columns[0]]]
@@ -197,3 +200,15 @@ def assign_match_winner(df):
     df['isMatchWinner'] = ['y' if a == b else 'n' for a, b in zip(df['winnerTeamId'], df['team_id'])]
     return df
 
+
+def get_match_ids(url):
+    match_ids = []
+    response = requests.get(url, headers=cdl_headers).json()
+    matches = response['data']['scoreStrip']['matches']
+    for match in matches:
+        if match['status'] == 'COMPLETED':
+            match_ids.append(match['link'].split('/')[-1])
+    return match_ids
+
+m4_ids = get_match_ids('https://cdl-other-services.abe-arsfutura.com/production/v2/content-types/score-strip-list/blt458f482d8abb09e4?locale=en-us&options={"siteOrigin":"callofdutyleague.com"}')
+print(m4_ids)
